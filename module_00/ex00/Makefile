@@ -53,12 +53,12 @@ NO_COLOR		=	\033[m
 ################################################################################
 
 all	: 
-	@make compilation
-	@make $(NAME)
-	@make completed
+	@make compilation $(SILENT)
+	@make $(NAME) $(SILENT)
+	@make completed $(SILENT)
 
 $(NAME) : linking $(OBJS)
-	@$(CC) $(LDFLAGS) $(LIBINC) -o $@ $(OBJS) $(INC)
+	@$(CC) $(LDFLAGS) $(LIBINC) -o $@ $(OBJS) $(INC) 
 	
 
 $(OBJ_PATH)%.o : $(SRC_PATH)%.cpp
@@ -74,7 +74,7 @@ fclean : clean clean_exec
 	@rm -f $(NAME)
 
 re : fclean 
-			make all
+	@make all $(SILENT)
 
 test_right : all
 	./$(NAME) maps/test.cub
