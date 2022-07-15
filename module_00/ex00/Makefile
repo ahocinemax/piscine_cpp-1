@@ -52,7 +52,7 @@ NO_COLOR		=	\033[m
 #                                   RULES                                      #
 ################################################################################
 
-all :
+all	: 
 	@make compilation
 	@make $(NAME)
 	@make completed
