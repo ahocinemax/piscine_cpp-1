@@ -12,13 +12,11 @@ std::string truncate(std::string str)
 	return (str);
 }
 
-PhoneBook::PhoneBook(void)
-{
-	nb_contact = 0;
-}
+int PhoneBook::_nb_contact = 0;
 
-PhoneBook::~PhoneBook(void)
-{}
+PhoneBook::PhoneBook(void){}
+
+PhoneBook::~PhoneBook(void){}
 
 void PhoneBook::add_contact(int i)
 {
@@ -59,11 +57,11 @@ void PhoneBook::add_contact(int i)
 		exit(1);
 	} while (darkest_secret.length() < 1);
 	_contacts[i].set_information(first_name, last_name, nickname, phone_number, darkest_secret);
-	if (nb_contact < 8)
-		nb_contact++;
+	if (_nb_contact < 8)
+		_nb_contact++;
 }
 
-void	PhoneBook::display_contact_info(void)
+void	PhoneBook::display_contact_info(void) const
 {
 	std::string	i;
 	int contact_num = 0;
@@ -73,7 +71,7 @@ void	PhoneBook::display_contact_info(void)
 	if(i.length() == 1)
 	{
 		contact_num = atoi(i.c_str());
-		if (contact_num > nb_contact - 1)
+		if (contact_num > _nb_contact - 1)
 		{
 			std::cout << "Error : Contact doesn't exist" << std::endl;
 			return ;
@@ -95,9 +93,9 @@ void	PhoneBook::display_contact_info(void)
 		std::cout << "Error : Contact value should be in a range of 0 to 7" << std::endl;		
 }
 
-int	PhoneBook::display_contact_list(void)
+int	PhoneBook::display_contact_list(void) const
 {
-	if(nb_contact == 0)
+	if(_nb_contact == 0)
 	{
 		std::cout << "No contact to display, use ADD to create a contact" << std::endl;
 		return (-1);
@@ -107,7 +105,7 @@ int	PhoneBook::display_contact_list(void)
 			<< "|" << std::setw(10) << "LAST NAME" 
 			<< "|" << std::setw(10) << "NICKNAME" << "|"
 			<< std::endl;
- 	for(int i = 0; i < nb_contact; i++)
+ 	for(int i = 0; i < _nb_contact; i++)
 	{
 		std::cout << "|" << std::setw(10) << i 
 				<< "|" << std::setw(10) << truncate(_contacts[i].get_first_name())
