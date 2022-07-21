@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jul 19 15:52:46 2022
+# Make data base, printed on Thu Jul 21 17:52:33 2022
 
 # Variables
 
@@ -16,6 +16,8 @@ make: *** No rule to make target 'all'.  Stop.
 GDK_BACKEND = x11
 # environment
 LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
@@ -39,7 +41,7 @@ QT_ACCESSIBILITY = 1
 # environment
 SNAP_INSTANCE_NAME = code
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/101/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/102/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -53,23 +55,23 @@ LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
 XDG_DATA_DIRS = /home/nicolas/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
-OLDPWD = /home/nicolas/Documents/github/piscine_cpp
+OLDPWD = /home/nicolas/Documents/github/piscine_cpp/module_00/ex02
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/nicolas/.config/Code/CachedData/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
+VSCODE_CODE_CACHE_PATH = /home/nicolas/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.TNSIP1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.WC6IP1
 # default
 .LOADED := 
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
 # environment
-GNOME_TERMINAL_SERVICE = :1.4411
+GNOME_TERMINAL_SERVICE = :1.136
 # makefile
 MAKEFLAGS = pqrR
 # makefile
@@ -99,13 +101,13 @@ SNAP_REEXEC =
 # environment
 ZSH = /home/nicolas/.oh-my-zsh
 # environment
-VSCODE_PID = 40704
+VSCODE_PID = 67577
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/nicolas-XPS-15-9500:@/tmp/.ICE-unix/2689,unix/nicolas-XPS-15-9500:/tmp/.ICE-unix/2689
+SESSION_MANAGER = local/nicolas-XPS-15-9500:@/tmp/.ICE-unix/2783,unix/nicolas-XPS-15-9500:/tmp/.ICE-unix/2783
 # automatic
 *F = $(notdir $*)
 # environment
@@ -129,7 +131,7 @@ XMODIFIERS = @im=ibus
 # environment
 SHLVL = 1
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/2586c564_3bef_4703_9937_bd542dad4885
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/48548732_8639_44ac_906f_2a267eeb2f8e
 # environment
 MAKELEVEL := 0
 # default
@@ -149,9 +151,9 @@ SNAP_USER_COMMON = /home/nicolas/snap/code/common
 # environment
 LC_TIME = fr_FR.UTF-8
 # environment
-SNAP = /snap/code/101
+SNAP = /snap/code/102
 # environment
-SNAP_REVISION = 101
+SNAP_REVISION = 102
 # environment
 SNAP_REAL_HOME = /home/nicolas
 # environment
@@ -183,7 +185,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 2822
+SYSTEMD_EXEC_PID = 2933
 # environment
 DISPLAY = :0
 # environment
@@ -195,7 +197,7 @@ MAKE_VERSION := 4.3
 # environment
 DISABLE_WAYLAND = 1
 # environment
-SNAP_DATA = /var/snap/code/101
+SNAP_DATA = /var/snap/code/102
 # environment
 SNAP_CONTEXT = CEZt7BCZrKMVXecjmrxbDPMiQffLKbiX-_bOEGc96lgjms7V65r5
 # environment
@@ -221,19 +223,19 @@ QT_IM_MODULE = ibus
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-0ed59228-1.69.1-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-0ed59228-1.69.2-main.sock
 # environment
 TERM = xterm-256color
 # environment
 SNAP_NAME = code
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/101/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/102/usr/share/glib-2.0/schemas
 # default
 .RECIPEPREFIX := 
 # automatic
 <F = $(notdir $<)
 # environment
-SNAP_VERSION = b06ae3b2
+SNAP_VERSION = 3b889b09
 # default
 SUFFIXES := 
 # environment
@@ -247,7 +249,7 @@ SNAP_COMMON = /var/snap/code/common
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # environment
-SNAP_USER_DATA = /home/nicolas/snap/code/101
+SNAP_USER_DATA = /home/nicolas/snap/code/102
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
@@ -257,7 +259,7 @@ LC_IDENTIFICATION = fr_FR.UTF-8
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
-# Load=122/1024=12%, Rehash=0, Collisions=11/149=7%
+# Load=123/1024=12%, Rehash=0, Collisions=11/150=7%
 
 # Pattern-specific Variable Values
 
@@ -265,9 +267,9 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 66309, inode 3540401): 6 files, no impossibilities.
+# . (device 66309, inode 3540401): 7 files, no impossibilities.
 
-# 6 files, no impossibilities in 1 directories.
+# 7 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -293,6 +295,7 @@ all:
 #  Command line target.
 #  Implicit rule search has been done.
 #  File does not exist.
+ 
 #  File has not been updated.
 
 # Not a target:
@@ -310,7 +313,6 @@ GNUmakefile:
 #  Failed to be updated.
 
 # files hash-table stats:
- 
 # Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
 # VPATH Search Paths
 
@@ -318,12 +320,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 14 / storage = 123 B / avg = 8 B
-# current buf: size = 8162 B / used = 123 B / count = 14 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 15 / storage = 128 B / avg = 8 B
+# current buf: size = 8162 B / used = 128 B / count = 15 / avg = 8 B
 
-# strcache performance: lookups = 17 / hit rate = 17%
+# strcache performance: lookups = 18 / hit rate = 16%
 # hash-table stats:
-# Load=14/8192=0%, Rehash=0, Collisions=0/17=0%
-# Finished Make data base on Tue Jul 19 15:52:46 2022
+# Load=15/8192=0%, Rehash=0, Collisions=0/18=0%
+# Finished Make data base on Thu Jul 21 17:52:33 2022
 
  
