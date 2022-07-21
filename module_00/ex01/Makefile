@@ -1,4 +1,4 @@
-NAME = megaphone
+NAME = phonebook
 
 ################################################################################
 #                           COMPILATION SETTING                        	       #
@@ -13,8 +13,9 @@ SILENT	= --no-print-directory
 #                               SOURCE FILES                              	   #
 ################################################################################
 
-SRCS =	megaphone.cpp	\
-		
+SRCS =	PhoneBook.cpp	\
+		ContactClass.cpp \
+		PhoneBookClass.cpp
 
 ################################################################################
 #                               INCLUDES                             	       #
