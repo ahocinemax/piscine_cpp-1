@@ -13,9 +13,9 @@ SILENT	= --no-print-directory
 #                               SOURCE FILES                              	   #
 ################################################################################
 
-SRCS =	PhoneBook.cpp	\
-		ContactClass.cpp \
-		PhoneBookClass.cpp
+SRCS =	test.cpp \
+		Account.cpp
+
 
 ################################################################################
 #                               INCLUDES                             	       #
