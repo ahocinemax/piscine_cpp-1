@@ -1,0 +1,1 @@
+{"buildTargets":["all","clean","clean_exec","clean_files","compilation","completed","fclean","linking","objs/Zombie.o","objs/main.o","objs/newZombie.o","objs/randomChump.o","re","test_right","test_wrong","vtest","zombie"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
