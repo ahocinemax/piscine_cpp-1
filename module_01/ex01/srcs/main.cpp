@@ -11,7 +11,10 @@ int main(int ac, char **av)
 		nb_zomb = atoi(av[1]);
 		zombie = zombieHorde(nb_zomb, "bernard");
 		for(int i = 0; i < nb_zomb; i++)
+		{
+			std::cout << i << " : ";
 			zombie[i].announce();
+		}
 		delete [] zombie;
 	}
 	return (0);
