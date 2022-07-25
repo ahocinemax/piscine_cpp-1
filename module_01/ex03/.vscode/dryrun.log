@@ -1,7 +1,11 @@
 make --dry-run --keep-going --print-directory
 make: Entering directory '/home/nicolas/Documents/piscine_cpp/module_01/ex03'
+ 
 make compilation --no-print-directory
+ 
 make unnecessary_violence --no-print-directory
+ 
 make completed --no-print-directory
+ 
 make: Leaving directory '/home/nicolas/Documents/piscine_cpp/module_01/ex03'
  
