@@ -45,37 +45,34 @@ std::string replace(std::string line, std::string s1, std::string s2)
 
 int main(int ac, char **av)
 {	
-	std::ifstream infile;
-	std::ofstream outfile;
 	std::string line;
-	std::string s1;
-	std::string s2;
-
-	if(ac == 4)
+	
+	if(ac != 4)
+		return (std::cout << "Error: 3 arguments required" << std::endl, -1);
+	std::string file(av[1]);
+	std::ifstream infile(file.c_str());
+	if(!infile)
 	{
-		infile.open(av[1]);
-		if(!infile)
-		{
-			std::cout << "Error : cannot open the file" << std::endl;
-			return (-1);
-		}
-		else
-		{	
-			s1 = av[2];
-			s2 = av[3];
-			outfile.open("output");
-			std::cout << "Successfully openned the file" << std::endl;
-			while (infile.good())
-			{
-				getline(infile, line);
-				outfile << replace(line, s1, s2);
-				if (infile.peek() != EOF)
-					outfile << std::endl;
-				//Need to check if the file contain a nl on the last line
-			}
-			std::cout << "Reading finished" << std::endl;
-		}
-		infile.close();
+		std::cout << "Error : cannot open the file" << std::endl;
+		return (-1);
 	}
+	else
+	{	
+		std::string s1(av[2]);
+		std::string s2(av[3]);
+		file += ".replace";
+		std::ofstream outfile(file.c_str());
+		std::cout << "Successfully openned the file" << std::endl;
+		while (infile.good())
+		{
+			getline(infile, line);
+			outfile << replace(line, s1, s2);
+			if (infile.peek() != EOF)
+				outfile << std::endl;
+			//Need to check if the file contain a nl on the last line
+		}
+		std::cout << "Reading finished" << std::endl;
+	}
+	infile.close();
 	return (0);
 }
