@@ -1,6 +1,6 @@
 #include "sed_is_for_losers.hpp"
 
-int	ft_strcmp(std::string s1, std::string s2)
+int	is_equal(std::string s1, std::string s2)
 {
 	int nbchartocompare = 0;
 	int i = 0;
@@ -17,9 +17,9 @@ int	ft_strcmp(std::string s1, std::string s2)
 			break;
 	}
 	if (i == nbchartocompare)
-		return (0);
+		return (1);
 	else
-		return (-1);
+		return (0);
 }
 
 std::string replace(std::string line, std::string s1, std::string s2)
@@ -29,7 +29,7 @@ std::string replace(std::string line, std::string s1, std::string s2)
 
 	while (line.c_str()[i])
 	{
-		if (line.c_str()[i] == s1.c_str()[0] && !ft_strcmp(&line.c_str()[i], s1))
+		if (line.c_str()[i] == s1.c_str()[0] && is_equal(&line.c_str()[i], s1))
 		{	
 			replaced += s2;
 			i += s1.length();
@@ -43,8 +43,6 @@ std::string replace(std::string line, std::string s1, std::string s2)
 	return (replaced);
 }
 
-
-
 int main(int ac, char **av)
 {	
 	std::ifstream infile;
@@ -52,7 +50,6 @@ int main(int ac, char **av)
 	std::string line;
 	std::string s1;
 	std::string s2;
-
 
 	if(ac == 4)
 	{
@@ -71,7 +68,10 @@ int main(int ac, char **av)
 			while (infile.good())
 			{
 				getline(infile, line);
-				outfile << replace(line, s1, s2) << std::endl;
+				outfile << replace(line, s1, s2);
+				if (infile.peek() != EOF)
+					outfile << std::endl;
+				//Need to check if the file contain a nl on the last line
 			}
 			std::cout << "Reading finished" << std::endl;
 		}
