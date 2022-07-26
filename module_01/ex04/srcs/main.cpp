@@ -62,7 +62,6 @@ int main(int ac, char **av)
 		std::string s2(av[3]);
 		file += ".replace";
 		std::ofstream outfile(file.c_str());
-		std::cout << "Successfully openned the file" << std::endl;
 		while (infile.good())
 		{
 			getline(infile, line);
@@ -71,7 +70,6 @@ int main(int ac, char **av)
 				outfile << std::endl;
 			//Need to check if the file contain a nl on the last line
 		}
-		std::cout << "Reading finished" << std::endl;
 	}
 	infile.close();
 	return (0);

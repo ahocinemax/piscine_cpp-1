@@ -7,6 +7,4 @@
 # include <string>
 # include <ios>
 
-
-
 #endif
