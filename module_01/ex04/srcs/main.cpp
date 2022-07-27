@@ -44,9 +44,9 @@ std::string replace(std::string line, std::string s1, std::string s2)
 }
 
 int main(int ac, char **av)
-{	
+{
 	std::string line;
-	
+
 	if(ac != 4)
 		return (std::cout << "Error: 3 arguments required" << std::endl, -1);
 	std::string file(av[1]);
@@ -57,7 +57,7 @@ int main(int ac, char **av)
 		return (-1);
 	}
 	else
-	{	
+	{
 		std::string s1(av[2]);
 		std::string s2(av[3]);
 		file += ".replace";
