@@ -5,19 +5,22 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/07/28 10:55:52 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/07/28 14:42:36 by nburat-d         ###   ########.fr       */
+/*   Created: 2022/07/28 19:00:59 by nburat-d          #+#    #+#             */
+/*   Updated: 2022/07/28 19:02:42 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Harl.hpp"
+#include <iostream>
+#include "Fixed.hpp"
 
-int main(int ac, char **av)
+int main(void)
 {
-	Harl harl;
-	if(ac == 2)
-		harl.complain(av[1]);
-	else
-		std::cout << "Seems that you forgot arguments" << std::endl;
-	return (0);
+	Fixed a;
+	Fixed b(a);
+	Fixed c;
+	c = b;
+	std::cout << a.getRawBits() << std::endl;
+	std::cout << b.getRawBits() << std::endl;
+	std::cout << c.getRawBits() << std::endl;
+	return 0;
 }
