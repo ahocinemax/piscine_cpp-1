@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/21 17:53:24 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/07/21 17:53:25 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/07/29 11:22:45 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,11 @@ int main()
 	{
 		std::cout << "Enter ADD, SEARCH or EXIT" << std::endl;
 		std::getline(std::cin, cmd);
+		if(std::cin.eof())
+		{
+			std::cout << "Goodbye" << std::endl;
+			exit(1);
+		}
 		if(cmd.compare("EXIT") == 0)
 			break;
 		else if(cmd.compare("ADD") == 0)

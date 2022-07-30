@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.cpp                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/07/29 11:08:30 by nburat-d          #+#    #+#             */
+/*   Updated: 2022/07/29 11:08:31 by nburat-d         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "sed_is_for_losers.hpp"
 
 int	is_equal(std::string s1, std::string s2)
@@ -68,7 +80,6 @@ int main(int ac, char **av)
 			outfile << replace(line, s1, s2);
 			if (infile.peek() != EOF)
 				outfile << std::endl;
-			//Need to check if the file contain a nl on the last line
 		}
 	}
 	infile.close();

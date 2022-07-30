@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jul 25 11:56:05 2022
+# Make data base, printed on Fri Jul 29 11:07:25 2022
 
 # Variables
 
@@ -53,7 +53,7 @@ LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
 XDG_DATA_DIRS = /home/nicolas/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
-OLDPWD = /home/nicolas
+OLDPWD = /home/nicolas/Documents/github
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # automatic
@@ -63,13 +63,13 @@ VSCODE_CODE_CACHE_PATH = /home/nicolas/.config/Code/CachedData/3b889b090b5ad5793
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.W16SP1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.WR5FQ1
 # default
 .LOADED := 
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
 # environment
-GNOME_TERMINAL_SERVICE = :1.117
+GNOME_TERMINAL_SERVICE = :1.157
 # makefile
 MAKEFLAGS = pqrR
 # makefile
@@ -99,13 +99,13 @@ SNAP_REEXEC =
 # environment
 ZSH = /home/nicolas/.oh-my-zsh
 # environment
-VSCODE_PID = 4631
+VSCODE_PID = 46401
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/nicolas-XPS-15-9500:@/tmp/.ICE-unix/2290,unix/nicolas-XPS-15-9500:/tmp/.ICE-unix/2290
+SESSION_MANAGER = local/nicolas-XPS-15-9500:@/tmp/.ICE-unix/3893,unix/nicolas-XPS-15-9500:/tmp/.ICE-unix/3893
 # automatic
 *F = $(notdir $*)
 # environment
@@ -129,7 +129,7 @@ XMODIFIERS = @im=ibus
 # environment
 SHLVL = 1
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/9ec15865_ca37_4db7_a2b7_f4985d6f4397
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/1980ec75_2082_4444_9255_de3c8031342e
 # environment
 MAKELEVEL := 0
 # default
@@ -183,7 +183,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 2440
+SYSTEMD_EXEC_PID = 4050
 # environment
 DISPLAY = :0
 # environment
@@ -265,9 +265,9 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 66309, inode 3540356): 7 files, no impossibilities.
+# . (device 66309, inode 3540356): 8 files, no impossibilities.
 
-# 7 files, no impossibilities in 1 directories.
+# 8 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -279,6 +279,7 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 Makefile:
 #  Implicit rule search has been done.
 #  File does not exist.
+ 
 #  File has been updated.
 #  Failed to be updated.
 
@@ -296,7 +297,6 @@ all:
 #  File has not been updated.
 
 # Not a target:
- 
 makefile:
 #  Implicit rule search has been done.
 #  File does not exist.
@@ -318,12 +318,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 15 / storage = 134 B / avg = 8 B
-# current buf: size = 8162 B / used = 134 B / count = 15 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 16 / storage = 144 B / avg = 9 B
+# current buf: size = 8162 B / used = 144 B / count = 16 / avg = 9 B
 
-# strcache performance: lookups = 18 / hit rate = 16%
+# strcache performance: lookups = 19 / hit rate = 15%
 # hash-table stats:
-# Load=15/8192=0%, Rehash=0, Collisions=0/18=0%
-# Finished Make data base on Mon Jul 25 11:56:05 2022
+# Load=16/8192=0%, Rehash=0, Collisions=0/19=0%
+# Finished Make data base on Fri Jul 29 11:07:25 2022
 
  
