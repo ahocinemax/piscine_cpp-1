@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/01 14:53:54 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/01 18:15:59 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/01 18:18:46 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,5 +39,5 @@ ScavTrap ::~ScavTrap()
 
 void ScavTrap::guardGate()
 {
-	std::cout  << "ScavTrap " << _name << " is now in Gater keeper mode.";
+	std::cout  << "ScavTrap " << _name << " is now in Gater keeper mode." << std::endl;
 }
