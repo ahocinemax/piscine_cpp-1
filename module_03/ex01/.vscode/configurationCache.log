@@ -1,0 +1,1 @@
+{"buildTargets":["all","claptrap","clean","clean_exec","clean_files","compilation","completed","fclean","linking","objs/ClapTrap.o","objs/ScavTrap.o","objs/main.o","re","scavtrap","test_right","test_wrong","vtest"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
