@@ -6,11 +6,13 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/01 12:20:25 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/01 14:41:44 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/02 15:56:29 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ClapTrap.hpp"
+
+ClapTrap::ClapTrap() : _name("No name"), _hit_point(10), _energy_point(10), _attack_damage(0) {}
 
 ClapTrap::ClapTrap(std::string name)
 : _name(name), _hit_point(10), _energy_point(10), _attack_damage(0)

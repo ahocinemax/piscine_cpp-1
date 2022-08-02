@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/01 18:27:08 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/01 18:35:32 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/02 16:04:17 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@
 class FragTrap : public ClapTrap
 {
 	public:
+		FragTrap();
 		FragTrap(std::string name);
 		FragTrap(const FragTrap& rhs);
 		FragTrap& operator=(const FragTrap& rhs);

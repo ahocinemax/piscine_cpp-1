@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/01 12:20:54 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/01 17:17:44 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/02 16:00:37 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,7 @@ class ClapTrap
 		int			_attack_damage;
 		
 	public:
+		ClapTrap();
 		ClapTrap(std::string name);
 		ClapTrap(const ClapTrap& rhs);
 		ClapTrap& operator=(const ClapTrap& rhs);
