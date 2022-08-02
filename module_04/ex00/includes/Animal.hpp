@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/02 21:11:59 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/02 22:10:07 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/02 22:26:21 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ class Animal
 		Animal();
 		Animal(const Animal& src);
 		Animal &operator=(const Animal& rhs);
-		~Animal();
+		virtual ~Animal();
 
 		virtual const std::string &getType() const;
 		virtual void makeSound() const;

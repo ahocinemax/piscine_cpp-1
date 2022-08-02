@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/02 21:11:59 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/02 22:18:08 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/02 22:27:24 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ class WrongAnimal
 		WrongAnimal();
 		WrongAnimal(const WrongAnimal& src);
 		WrongAnimal &operator=(const WrongAnimal& rhs);
-		~WrongAnimal();
+		virtual ~WrongAnimal();
 
 		virtual const std::string &getType() const;
 		virtual void makeSound() const;
