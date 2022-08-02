@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Aug  2 22:08:21 2022
+# Make data base, printed on Tue Aug  2 22:17:16 2022
 
 # Variables
 
@@ -107,7 +107,7 @@ SNAP_REEXEC =
 # environment
 ZSH = /home/nicolas/.oh-my-zsh
 # environment
-VSCODE_PID = 74308
+VSCODE_PID = 76269
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -287,7 +287,6 @@ LC_IDENTIFICATION = fr_FR.UTF-8
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
- 
 # Load=138/1024=13%, Rehash=0, Collisions=22/192=11%
 
 # Pattern-specific Variable Values
@@ -301,6 +300,7 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # 8 files, no impossibilities in 2 directories.
 
+ 
 # Implicit Rules
 
 objs/%.o: srcs/%.cpp
@@ -535,7 +535,7 @@ srcs/Cat.cpp:
 # Not a target:
 objs/main.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-02 22:06:22.634595599
+#  Last modified 2022-08-02 22:14:18.016795494
 #  File has been updated.
 #  Successfully updated.
 
@@ -706,7 +706,7 @@ clean: clean_files
 # Not a target:
 objs/Cat.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-02 22:04:32.684726149
+#  Last modified 2022-08-02 22:14:18.472800763
 #  File has been updated.
 #  Successfully updated.
 
@@ -779,7 +779,7 @@ includes/Dog.hpp:
 # Not a target:
 objs/Animal.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-02 22:04:32.344719879
+#  Last modified 2022-08-02 22:14:18.164797204
 #  File has been updated.
 #  Successfully updated.
 
@@ -893,7 +893,6 @@ includes/Cat.hpp:
 
 # Not a target:
 /usr/include/c++/11/new:
- 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -905,6 +904,7 @@ includes/Cat.hpp:
 #  File has not been updated.
 
 # Not a target:
+ 
 /usr/include/c++/11/ext/numeric_traits.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -1170,6 +1170,7 @@ objs/Dog.o: srcs/Dog.cpp /usr/include/stdc-predef.h includes/Dog.hpp includes/An
 # Not a target:
 /usr/include/c++/11/stdexcept:
 #  Implicit rule search has not been done.
+ 
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -1179,7 +1180,6 @@ objs/Dog.o: srcs/Dog.cpp /usr/include/stdc-predef.h includes/Dog.hpp includes/An
 #  Modification time never checked.
 #  File has not been updated.
 
- 
 # Not a target:
 /usr/include/locale.h:
 #  Implicit rule search has not been done.
@@ -1251,7 +1251,7 @@ test_right: all
 # Not a target:
 objs/Dog.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-02 22:04:32.512722977
+#  Last modified 2022-08-02 22:14:18.316798961
 #  File has been updated.
 #  Successfully updated.
 
@@ -1353,6 +1353,6 @@ objs/Animal.o: srcs/Animal.cpp /usr/include/stdc-predef.h includes/Animal.hpp /u
 # strcache performance: lookups = 621 / hit rate = 72%
 # hash-table stats:
 # Load=172/8192=2%, Rehash=0, Collisions=0/621=0%
-# Finished Make data base on Tue Aug  2 22:08:21 2022
+# Finished Make data base on Tue Aug  2 22:17:16 2022
 
  
