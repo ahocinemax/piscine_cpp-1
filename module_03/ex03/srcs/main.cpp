@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/01 14:37:17 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/02 16:41:14 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/02 17:00:21 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 int main(void)
 {
 	DiamondTrap robot("Alain");
-
+	
 	robot.attack("Dominique");
 	robot.attack("encore la pauvre Dominique");
 	robot.highFiveGuys();

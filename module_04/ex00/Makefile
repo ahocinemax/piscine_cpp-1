@@ -1,12 +1,12 @@
-NAME = diamondtrap
+NAME = polymorphism
 
 ################################################################################
 #                           COMPILATION SETTING                        	       #
 ################################################################################
 
 CC		= c++
-CFLAGS	= -Wall -Wextra -Wshadow -Wno-shadow -MD -std=c++98
-LDFLAGS	= -Wall -Wextra -Werror -Wshadow -Wno-shadow -std=c++98
+CFLAGS	= -Wall -Wextra -MD -std=c++98
+LDFLAGS	= -Wall -Wextra -Werror -std=c++98
 SILENT	= --no-print-directory
 
 ################################################################################
@@ -14,10 +14,10 @@ SILENT	= --no-print-directory
 ################################################################################
 
 SRCS =	main.cpp \
-		ClapTrap.cpp \
-		ScavTrap.cpp \
-		FragTrap.cpp \
-		DiamondTrap.cpp \
+		Animal.cpp \
+		Dog.cpp \
+		Cat.cpp
+		
 		
 ################################################################################
 #                               INCLUDES                             	       #
