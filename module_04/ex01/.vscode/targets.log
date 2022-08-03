@@ -1,15 +1,15 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # GNU Make 4.2.1
+ 
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Aug  4 00:30:02 2022
+# Make data base, printed on Thu Aug  4 00:55:07 2022
 
 # Variables
- 
 
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
@@ -46,7 +46,7 @@ VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupp
 # environment
 _ = /usr/bin/code
 # makefile (from 'Makefile', line 8)
-CFLAGS = -Wall -Wextra -MD -std=c++98
+CFLAGS = -Wall -Wextra -MD -std=c++98 -g3
 # makefile (from 'Makefile', line 49)
 BLUE = \033[0;34m
 # environment
@@ -106,7 +106,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 INVOCATION_ID = 276128fbbabb48518387a29809d368f5
 # makefile (from 'Makefile', line 9)
-LDFLAGS = -Wall -Wextra -Werror -std=c++98
+LDFLAGS = -Wall -Wextra -Werror -std=c++98 -g3
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -272,13 +272,14 @@ NO_COLOR = \033[m
 
 # Directories
 
-# . (device 56, inode 208078178): 7 files, no impossibilities.
+# . (device 56, inode 208078178): 8 files, no impossibilities.
 # srcs (device 56, inode 208078190): No files, no impossibilities so far.
 
-# 7 files, no impossibilities in 2 directories.
+# 8 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
+ 
 objs/%.o: srcs/%.cpp
 #  recipe to execute (from 'Makefile', line 68):
 	@mkdir -p $(dir $@)
@@ -289,7 +290,6 @@ objs/%.o: srcs/%.cpp
 # Files
 
 # Not a target:
- 
 /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_function.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -375,7 +375,7 @@ objs/main.o: srcs/main.cpp includes/Dog.hpp includes/Animal.hpp /usr/bin/../lib/
 # Not a target:
 objs/Cat.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-04 00:29:34.661824209
+#  Last modified 2022-08-04 00:54:29.510949205
 #  File has been updated.
 #  Successfully updated.
 
@@ -544,6 +544,7 @@ test_right: all
 # Not a target:
 /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/cpp_type_traits.h:
 #  Implicit rule search has not been done.
+ 
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -562,7 +563,6 @@ test_right: all
 # Not a target:
 /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/char_traits.h:
 #  Implicit rule search has not been done.
- 
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -575,7 +575,7 @@ test_right: all
 # Not a target:
 objs/Brain.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-04 00:29:34.22682153
+#  Last modified 2022-08-04 00:54:29.069946453
 #  File has been updated.
 #  Successfully updated.
 
@@ -618,7 +618,7 @@ objs/Brain.d:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-04 00:29:30.202796744
+#  Last modified 2022-08-04 00:54:22.453905163
 #  File has been updated.
 #  Successfully updated.
 
@@ -655,7 +655,7 @@ Makefile:
 # Not a target:
 objs/Animal.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-04 00:29:34.01582023
+#  Last modified 2022-08-04 00:54:28.85794513
 #  File has been updated.
 #  Successfully updated.
 
@@ -809,7 +809,9 @@ clean_exec:
 # Not a target:
 /usr/lib/llvm-12/lib/clang/12.0.0/include/stdarg.h:
 #  Implicit rule search has not been done.
+ 
 #  Modification time never checked.
+ 
 #  File has not been updated.
 
 # Not a target:
@@ -838,7 +840,6 @@ fclean: clean clean_exec
 #  Modification time never checked.
 #  File has not been updated.
 
- 
 # Not a target:
 /usr/include/string.h:
 #  Implicit rule search has not been done.
@@ -1032,7 +1033,7 @@ clean: clean_files
 # Not a target:
 objs/Dog.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-04 00:29:34.44282286
+#  Last modified 2022-08-04 00:54:29.290947832
 #  File has been updated.
 #  Successfully updated.
 
@@ -1062,6 +1063,7 @@ objs/Dog.d:
 
 # Not a target:
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+ 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -1104,7 +1106,6 @@ objs/Dog.d:
 
 # Not a target:
 /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/ptr_traits.h:
- 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -1120,7 +1121,7 @@ clean_files:
 # Not a target:
 objs/main.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-04 00:29:33.800818906
+#  Last modified 2022-08-04 00:54:28.637943757
 #  File has been updated.
 #  Successfully updated.
 
@@ -1330,9 +1331,10 @@ objs/Dog.o: srcs/Dog.cpp includes/Dog.hpp includes/Animal.hpp /usr/bin/../lib/gc
 # other used: total = 8124 B / count = 154 / avg = 52 B
 # other free: total = 38 B / max = 38 B / min = 38 B / avg = 38 B
 
-# strcache performance: lookups = 738 / hit rate = 76%
+# strcache performance: lookups = 739 / hit rate = 76%
 # hash-table stats:
-# Load=172/8192=2%, Rehash=0, Collisions=16/738=2%
-# Finished Make data base on Thu Aug  4 00:30:02 2022
+ 
+# Load=172/8192=2%, Rehash=0, Collisions=16/739=2%
+# Finished Make data base on Thu Aug  4 00:55:07 2022
 
  
