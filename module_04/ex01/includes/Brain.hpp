@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/03 09:41:45 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/03 11:05:49 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/04 00:30:06 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,11 @@ class Brain
 		Brain();
 		Brain(const Brain& src);
 		Brain &operator=(const Brain& rhs);
-		virtual ~Brain();
+		~Brain();
+		
+		const std::string &getIdea(int idea_num) const;
+		void	setIdeas(int rank, std::string idea);
+		
 };
 
 #endif

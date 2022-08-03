@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/02 21:08:45 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/02 22:26:47 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/04 00:00:53 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,14 +19,16 @@ Animal::Animal() : _type("No defined type")
 
 Animal::Animal(const Animal& src)
 {
-	_type = src._type;
+	if(this != &src)
+		*this = src;
 	std::cout << "Animal Calling copy constructor" << std::endl;
 
 }
 
 Animal& Animal::operator=(const Animal& rhs)
 {
-	_type = rhs._type;
+	if(this != &rhs)
+		this->_type = rhs._type;
 	std::cout << "Animal Calling assignment constructor" << std::endl;
 	return (*this);
 }

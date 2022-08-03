@@ -15,12 +15,10 @@ SILENT	= --no-print-directory
 
 SRCS =	main.cpp \
 		Animal.cpp \
+		Brain.cpp \
 		Dog.cpp \
 		Cat.cpp \
-		WrongAnimal.cpp \
-		WrongCat.cpp
-		
-		
+				
 ################################################################################
 #                               INCLUDES                             	       #
 ################################################################################
