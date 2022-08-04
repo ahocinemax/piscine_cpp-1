@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/02 21:53:19 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/04 01:07:43 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/04 11:03:38 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ Cat & Cat::operator=(const Cat& rhs)
 		_type = rhs._type;
 		delete _brain;
 		_brain = new Brain();
-		_brain = rhs._brain;
+		*_brain = *(rhs._brain);
 	}
 	std::cout << _type << " : assignment constructor called" << std::endl;
 	return (*this);

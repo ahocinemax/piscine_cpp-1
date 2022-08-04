@@ -1,270 +1,293 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-# GNU Make 4.2.1
- 
+# GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
-# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Aug  4 00:55:07 2022
+# Make data base, printed on Thu Aug  4 10:56:48 2022
 
 # Variables
 
-# automatic
-<D = $(patsubst %/,%,$(dir $<))
-# automatic
-?F = $(notdir $?)
 # environment
-DESKTOP_SESSION = ubuntu
-# default
-.SHELLFLAGS := -c
+GDK_BACKEND = x11
 # environment
-XDG_SESSION_CLASS = user
+LC_ALL = C
 # environment
-XDG_SESSION_TYPE = x11
+GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_LOG_NATIVE = false
-# automatic
-?D = $(patsubst %/,%,$(dir $?))
-# automatic
-@D = $(patsubst %/,%,$(dir $@))
+SSH_AGENT_LAUNCHER = gnome-keyring
 # environment
-XAUTHORITY = /mnt/nfs/homes/nburat-d/.Xauthority
-# environment
-GDMSESSION = ubuntu
-# environment
-XMODIFIERS = @im=ibus
-# makefile
-CURDIR := /mnt/nfs/homes/nburat-d/Documents/piscine_cpp/module_04/ex01
-# makefile
-SHELL = /bin/sh
-# environment
-VTE_VERSION = 6003
-# environment
-VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
-# environment
-_ = /usr/bin/code
-# makefile (from 'Makefile', line 8)
-CFLAGS = -Wall -Wextra -MD -std=c++98 -g3
-# makefile (from 'Makefile', line 49)
-BLUE = \033[0;34m
-# environment
-JOURNAL_STREAM = 9:174789
-# environment
-XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
-# makefile (from 'objs/Cat.d', line 1)
-MAKEFILE_LIST :=  Makefile objs/main.d objs/Animal.d objs/Brain.d objs/Dog.d objs/Cat.d
-# automatic
-@F = $(notdir $@)
-# environment
-IM_CONFIG_PHASE = 1
-# 'override' directive
-GNUMAKEFLAGS := 
-# environment
-MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
-# environment
-XDG_DATA_DIRS = /usr/share/gnome:/usr/share/ubuntu:/mnt/nfs/homes/nburat-d/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
-# environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/40568/bus
-# environment
-VSCODE_VERBOSE_LOGGING = true
-# makefile (from 'Makefile', line 10)
-SILENT = --no-print-directory
-# makefile (from 'Makefile', line 42)
-OBJS = $(addprefix $(OBJ_PATH), ${SRCS:.cpp=.o})
-# environment
-MANAGERPID = 36996
-# environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/40568/vscode-ipc-e5f1ea83-4239-4fc5-ae29-1ea1cfcdc092.sock
-# environment
-VSCODE_CWD = /mnt/nfs/homes/nburat-d/Documents/piscine_cpp/module_04/ex01
-# environment
-XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
-# environment
-KRB5CCNAME = FILE:/tmp/krb5cc_40568_rVY4IQ
-# default
-MAKE_HOST := x86_64-pc-linux-gnu
-# environment
-PATH = /mnt/nfs/homes/nburat-d/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-# environment
-GPG_AGENT_INFO = /run/user/40568/gnupg/S.gpg-agent:0:1
-# environment
-LSCOLORS = Gxfxcxdxbxegedabagacad
-# environment
-SESSION_MANAGER = local/e1r11p13.clusters.42paris.fr:@/tmp/.ICE-unix/37514,unix/e1r11p13.clusters.42paris.fr:/tmp/.ICE-unix/37514
-# environment
-XDG_RUNTIME_DIR = /run/user/40568
+SNAP_INSTANCE_KEY = 
 # makefile (from 'Makefile', line 34)
 SRC_PATH = ./srcs/
 # environment
-XDG_MENU_PREFIX = gnome-
+LC_NAME = fr_FR.UTF-8
 # environment
-VSCODE_LOG_STACK = false
+LC_NUMERIC = fr_FR.UTF-8
 # environment
-ELECTRON_RUN_AS_NODE = 1
+VSCODE_CWD = /home/nicolas/Documents/github/piscine_cpp/module_04/ex01
 # environment
-INVOCATION_ID = 276128fbbabb48518387a29809d368f5
-# makefile (from 'Makefile', line 9)
-LDFLAGS = -Wall -Wextra -Werror -std=c++98 -g3
+LC_ADDRESS = fr_FR.UTF-8
 # default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+MAKE_COMMAND := make
 # environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
-# makefile (from 'Makefile', line 43)
-DEPENDS = $(addprefix $(OBJ_PATH), ${SRCS:.cpp=.d})
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
 # environment
-XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/nburat-d
+SNAP_INSTANCE_NAME = code
 # environment
-LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+GDK_PIXBUF_MODULEDIR = /snap/code/102/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # environment
-XDG_SESSION_DESKTOP = ubuntu
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
 # environment
-SSH_AUTH_SOCK = /run/user/40568/keyring/ssh
+PWD = /home/nicolas/Documents/github/piscine_cpp/module_04/ex01
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 38281
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+XDG_DATA_DIRS = /home/nicolas/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+OLDPWD = /home/nicolas/Documents/github/piscine_cpp/module_04
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
 # automatic
 %F = $(notdir $%)
 # environment
-DISPLAY = :0
-# environment
-VSCODE_PIPE_LOGGING = true
-# environment
-PWD = /mnt/nfs/homes/nburat-d/Documents/piscine_cpp/module_04/ex01
-# default
-.LOADED := 
-# environment
-SSH_AGENT_PID = 37478
-# environment
-ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
-# makefile (from 'Makefile', line 51)
-GREEN = \033[0;32m
-# environment
-GTK_MODULES = gail:atk-bridge
-# environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
-# environment
-HOME = /mnt/nfs/homes/nburat-d
-# environment
-VSCODE_CLI = 1
-# environment
-VSCODE_CODE_CACHE_PATH = /mnt/nfs/homes/nburat-d/.config/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
-# environment
-LOGNAME = nburat-d
-# environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
-# environment
-ZSH = /mnt/nfs/homes/nburat-d/.oh-my-zsh
-# environment
-VSCODE_HANDLES_UNCAUGHT_ERRORS = true
-# environment
-GNOME_DESKTOP_SESSION_ID = this-is-deprecated
-# automatic
-^D = $(patsubst %/,%,$(dir $^))
-# environment
-MAKELEVEL := 0
-# environment
-COLORTERM = truecolor
-# default
-MAKE = $(MAKE_COMMAND)
-# default
-MAKECMDGOALS := all
-# environment
-QT_IM_MODULE = ibus
-# makefile (from 'Makefile', line 16)
-SRCS = main.cpp Animal.cpp Brain.cpp Dog.cpp Cat.cpp 
-# environment
-SHLVL = 2
-# makefile (from 'Makefile', line 7)
-CC = c++
-# environment
-TERMINATOR_UUID = urn:uuid:cce6bf10-0af7-4bdb-b229-60cf58ed120e
-# default
-MAKE_VERSION := 4.2.1
-# environment
-USER = nburat-d
-# makefile
-.DEFAULT_GOAL := all
-# environment
-XDG_CURRENT_DESKTOP = Unity
-# environment
-LIBVIRT_DEFAULT_URI = qemu:///system
-# environment
-LESS = -R
-# automatic
-%D = $(patsubst %/,%,$(dir $%))
-# default
-MAKE_COMMAND := make
-# makefile (from 'Makefile', line 26)
-INC = -I ./includes/ 
-# environment
-OLDPWD = /mnt/nfs/homes/nburat-d/Documents/piscine_cpp/module_04
-# environment
-TERMINATOR_DBUS_PATH = /net/tenshu/Terminator2
-# default
-.VARIABLES := 
-# automatic
-*F = $(notdir $*)
-# environment
-XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
-# environment
-VSCODE_IPC_HOOK = /run/user/40568/vscode-2ba08e64-1.68.1-main.sock
-# makefile (from 'Makefile', line 50)
-RED = \033[0;31m
-# makefile
-MAKEFLAGS = pqrR
-# environment
-MFLAGS = -pqrR
-# automatic
-*D = $(patsubst %/,%,$(dir $*))
-# automatic
-+D = $(patsubst %/,%,$(dir $+))
-# environment
-GDK_BACKEND = x11
-# automatic
-+F = $(notdir $+)
-# environment
-QT_ACCESSIBILITY = 1
-# environment
-DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
-# default
-MAKEFILES := 
-# automatic
-<F = $(notdir $<)
-# environment
-PAGER = less
-# environment
-LC_ALL = C
-# makefile (from 'Makefile', line 35)
-OBJ_PATH = ./objs/
-# automatic
-^F = $(notdir $^)
-# default
-SUFFIXES := 
-# environment
-CHROME_DESKTOP = code-url-handler.desktop
-# default
-.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
-# makefile (from 'Makefile', line 1)
-NAME = I_dont_want_to_set_the_world_on_fire
-# default
-.RECIPEPREFIX := 
-# makefile (from 'Makefile', line 28)
-LIBINC = 
+VSCODE_CODE_CACHE_PATH = /home/nicolas/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
 # environment
 LANG = C
 # environment
-TERM = xterm-256color
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.N1MGQ1
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
 # environment
-TERMINATOR_DBUS_NAME = net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873
-# environment
-DOCKER_HOST = unix:///run/user/40568/docker.sock
-# environment
-VSCODE_PID = 40753
+GNOME_TERMINAL_SERVICE = :1.139
+# makefile
+MAKEFLAGS = pqrR
 # makefile (from 'Makefile', line 52)
 NO_COLOR = \033[m
+# makefile (from 'Makefile', line 49)
+BLUE = \033[0;34m
+# makefile
+CURDIR := /home/nicolas/Documents/github/piscine_cpp/module_04/ex01
+# makefile (from 'Makefile', line 43)
+DEPENDS = $(addprefix $(OBJ_PATH), ${SRCS:.cpp=.d})
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from 'Makefile', line 16)
+SRCS = main.cpp Animal.cpp Brain.cpp Dog.cpp Cat.cpp 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+WAYLAND_DISPLAY = wayland-0
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# makefile (from 'objs/Cat.d', line 1)
+MAKEFILE_LIST := Makefile objs/main.d objs/Animal.d objs/Brain.d objs/Dog.d objs/Cat.d
+# environment
+SNAP_REEXEC = 
+# automatic
+@F = $(notdir $@)
+# environment
+ZSH = /home/nicolas/.oh-my-zsh
+# environment
+VSCODE_PID = 9230
+# environment
+XDG_SESSION_TYPE = wayland
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SESSION_MANAGER = local/nicolas-XPS-15-9500:@/tmp/.ICE-unix/2251,unix/nicolas-XPS-15-9500:/tmp/.ICE-unix/2251
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'Makefile', line 42)
+OBJS = $(addprefix $(OBJ_PATH), ${SRCS:.cpp=.o})
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+SHLVL = 1
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/a9930217_803d_415d_84fa_c4a25f9ede9d
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+SNAP_COOKIE = CEZt7BCZrKMVXecjmrxbDPMiQffLKbiX-_bOEGc96lgjms7V65r5
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+# makefile (from 'Makefile', line 35)
+OBJ_PATH = ./objs/
+# default
+MAKEFILES := 
+# environment
+LC_MONETARY = fr_FR.UTF-8
+# automatic
+^F = $(notdir $^)
+# environment
+SNAP_USER_COMMON = /home/nicolas/snap/code/common
+# environment
+LC_TIME = fr_FR.UTF-8
+# environment
+SNAP = /snap/code/102
+# environment
+SNAP_REVISION = 102
+# environment
+SNAP_REAL_HOME = /home/nicolas
+# environment
+USERNAME = nicolas
+# makefile (from 'Makefile', line 51)
+GREEN = \033[0;32m
+# environment
+GNOME_SETUP_DISPLAY = :1
+# environment
+LC_TELEPHONE = fr_FR.UTF-8
+# automatic
+?F = $(notdir $?)
+# makefile (from 'Makefile', line 26)
+INC = -I ./includes/ 
+# makefile (from 'Makefile', line 1)
+NAME = I_dont_want_to_set_the_world_on_fire
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# automatic
++F = $(notdir $+)
+# environment
+LESS = -R
+# environment
+DESKTOP_SESSION = ubuntu
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = nicolas
+# environment
+SNAP_ARCH = amd64
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 2403
+# makefile (from 'Makefile', line 50)
+RED = \033[0;31m
+# environment
+DISPLAY = :0
+# environment
+USER = nicolas
+# environment
+GTK_MODULES = gail:atk-bridge:appmenu-gtk-module
+# default
+MAKE_VERSION := 4.3
+# environment
+DISABLE_WAYLAND = 1
+# environment
+SNAP_DATA = /var/snap/code/102
+# environment
+SNAP_CONTEXT = CEZt7BCZrKMVXecjmrxbDPMiQffLKbiX-_bOEGc96lgjms7V65r5
+# makefile (from 'Makefile', line 9)
+LDFLAGS = -Wall -Wextra -Werror -std=c++98 -g3 -fsanitize=address
+# environment
+LC_MEASUREMENT = fr_FR.UTF-8
+# environment
+PAGER = less
+# environment
+LC_PAPER = fr_FR.UTF-8
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 8)
+CFLAGS = -Wall -Wextra -MD -std=c++98 -g3 -fsanitize=address
+# environment
+COLORTERM = truecolor
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/nicolas/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/nicolas
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-0ed59228-1.69.2-main.sock
+# environment
+TERM = xterm-256color
+# environment
+SNAP_NAME = code
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/102/usr/share/glib-2.0/schemas
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# environment
+SNAP_VERSION = 3b889b09
+# default
+SUFFIXES := 
+# makefile (from 'Makefile', line 10)
+SILENT = --no-print-directory
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from 'Makefile', line 28)
+LIBINC = 
+# environment
+VTE_VERSION = 6800
+# environment
+SNAP_COMMON = /var/snap/code/common
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 7)
+CC = c++
+# environment
+SNAP_USER_DATA = /home/nicolas/snap/code/102
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = ubuntu
+# environment
+LC_IDENTIFICATION = fr_FR.UTF-8
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
-# Load=126/1024=12%, Rehash=0, Collisions=27/177=15%
+# Load=138/1024=13%, Rehash=0, Collisions=22/194=11%
 
 # Pattern-specific Variable Values
 
@@ -272,112 +295,45 @@ NO_COLOR = \033[m
 
 # Directories
 
-# . (device 56, inode 208078178): 8 files, no impossibilities.
-# srcs (device 56, inode 208078190): No files, no impossibilities so far.
+ 
+# . (device 66309, inode 5249472): 8 files, no impossibilities.
+# srcs (device 66309, inode 5249494): No files, no impossibilities so far.
 
 # 8 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
- 
 objs/%.o: srcs/%.cpp
 #  recipe to execute (from 'Makefile', line 68):
 	@mkdir -p $(dir $@)
 	@$(CC)  $(CFLAGS) $(LIBINC) -c -o $@ $<  $(INC)
 
 # 1 implicit rules, 0 (0.0%) terminal.
-
 # Files
 
 # Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_function.h:
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-/usr/include/x86_64-linux-gnu/bits/timex.h:
+/usr/include/c++/11/ext/alloc_traits.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-/usr/include/x86_64-linux-gnu/bits/endian.h:
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/concept_check.h:
+/usr/include/c++/11/bits/basic_string.tcc:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/basic_ios.tcc:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/gthr-default.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/exception_defines.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-objs/main.o: srcs/main.cpp includes/Dog.hpp includes/Animal.hpp /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/string /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/c++config.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/os_defines.h /usr/include/features.h /usr/include/stdc-predef.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stringfwd.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/memoryfwd.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/char_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_algobase.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/functexcept.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/exception_defines.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/cpp_type_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/type_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/numeric_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_pair.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/move.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/concept_check.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_iterator_base_types.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_iterator_base_funcs.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/debug/assertions.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_iterator.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/ptr_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/debug/debug.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/predefined_ops.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/postypes.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/cwchar /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/lib/llvm-12/lib/clang/12.0.0/include/stddef.h /usr/lib/llvm-12/lib/clang/12.0.0/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/x86_64-linux-gnu/bits/types/wint_t.h /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/types/locale_t.h /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/allocator.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/c++allocator.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/new_allocator.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/new /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/exception /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/exception.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/localefwd.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/c++locale.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/clocale /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/iosfwd /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/cctype /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/timesize.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/time64.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/endianness.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/ostream_insert.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/cxxabi_forced.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_function.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/backward/binders.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/range_access.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/basic_string.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/atomicity.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/gthr.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/gthr-default.h /usr/include/pthread.h /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h /usr/include/x86_64-linux-gnu/bits/types/clock_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h /usr/include/x86_64-linux-gnu/bits/struct_mutex.h /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/atomic_word.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/alloc_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/alloc_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_construct.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/basic_string.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/iostream /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ostream /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ios /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/ios_base.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/locale_classes.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/locale_classes.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/stdexcept /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/streambuf /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/streambuf.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/basic_ios.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/locale_facets.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/cwctype /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/ctype_base.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/streambuf_iterator.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/locale_facets.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/basic_ios.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/ostream.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/istream /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/istream.tcc /usr/include/string.h /usr/include/strings.h includes/Brain.hpp includes/Cat.hpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/wctype.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-objs/Cat.d:
-#  Implicit rule search has been done.
-#  Last modified 2022-08-04 00:54:29.510949205
-#  File has been updated.
-#  Successfully updated.
 
 # Not a target:
 srcs/Animal.cpp:
@@ -386,366 +342,30 @@ srcs/Animal.cpp:
 #  File has not been updated.
 
 # Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/ostream.tcc:
+/usr/include/c++/11/bits/stl_pair.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/predefined_ops.h:
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-includes/Animal.hpp:
+/usr/include/c++/11/iosfwd:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
-all:
-#  Phony target (prerequisite of .PHONY).
-#  Command line target.
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: ''
-#  File does not exist.
-#  File has been updated.
-#  Needs to be updated (-q is set).
-# automatic
-# @ := all
-# automatic
-# % := 
-# automatic
-# * := 
-# automatic
-# + := 
-# automatic
-# | := 
-# automatic
-# < := 
-# automatic
-# ^ := 
-# automatic
-# ? := 
-# variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=1/15=7%
-#  recipe to execute (from 'Makefile', line 59):
-	@make compilation $(SILENT)
-	@make $(NAME) $(SILENT)
-	@make completed $(SILENT)
-
-# Not a target:
-srcs/Dog.cpp:
+objs/Cat.o: srcs/Cat.cpp /usr/include/stdc-predef.h includes/Cat.hpp includes/Animal.hpp /usr/include/c++/11/string /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h /usr/include/features.h /usr/include/features-time64.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/timesize.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h /usr/include/c++/11/bits/stringfwd.h /usr/include/c++/11/bits/memoryfwd.h /usr/include/c++/11/bits/char_traits.h /usr/include/c++/11/bits/stl_algobase.h /usr/include/c++/11/bits/functexcept.h /usr/include/c++/11/bits/exception_defines.h /usr/include/c++/11/bits/cpp_type_traits.h /usr/include/c++/11/ext/type_traits.h /usr/include/c++/11/ext/numeric_traits.h /usr/include/c++/11/bits/stl_pair.h /usr/include/c++/11/bits/move.h /usr/include/c++/11/bits/concept_check.h /usr/include/c++/11/bits/stl_iterator_base_types.h /usr/include/c++/11/bits/stl_iterator_base_funcs.h /usr/include/c++/11/debug/assertions.h /usr/include/c++/11/bits/stl_iterator.h /usr/include/c++/11/bits/ptr_traits.h /usr/include/c++/11/debug/debug.h /usr/include/c++/11/bits/predefined_ops.h /usr/include/c++/11/bits/postypes.h /usr/include/c++/11/cwchar /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/x86_64-linux-gnu/bits/types/wint_t.h /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/types/locale_t.h /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h /usr/include/c++/11/bits/allocator.h /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h /usr/include/c++/11/ext/new_allocator.h /usr/include/c++/11/new /usr/include/c++/11/bits/exception.h /usr/include/c++/11/bits/localefwd.h /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h /usr/include/c++/11/clocale /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/11/iosfwd /usr/include/c++/11/cctype /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/time64.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/endianness.h /usr/include/c++/11/bits/ostream_insert.h /usr/include/c++/11/bits/cxxabi_forced.h /usr/include/c++/11/bits/stl_function.h /usr/include/c++/11/backward/binders.h /usr/include/c++/11/bits/range_access.h /usr/include/c++/11/bits/basic_string.h /usr/include/c++/11/ext/atomicity.h /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h /usr/include/pthread.h /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h /usr/include/x86_64-linux-gnu/bits/types/clock_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h /usr/include/x86_64-linux-gnu/bits/struct_mutex.h /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h /usr/include/x86_64-linux-gnu/sys/single_threaded.h /usr/include/c++/11/ext/alloc_traits.h /usr/include/c++/11/bits/alloc_traits.h /usr/include/c++/11/bits/stl_construct.h /usr/include/c++/11/bits/basic_string.tcc /usr/include/c++/11/iostream /usr/include/c++/11/ostream /usr/include/c++/11/ios /usr/include/c++/11/exception /usr/include/c++/11/bits/ios_base.h /usr/include/c++/11/bits/locale_classes.h /usr/include/c++/11/bits/locale_classes.tcc /usr/include/c++/11/stdexcept /usr/include/c++/11/streambuf /usr/include/c++/11/bits/streambuf.tcc /usr/include/c++/11/bits/basic_ios.h /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h /usr/include/c++/11/bits/streambuf_iterator.h /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h /usr/include/c++/11/bits/locale_facets.tcc /usr/include/c++/11/bits/basic_ios.tcc /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream /usr/include/c++/11/bits/istream.tcc /usr/include/string.h /usr/include/strings.h includes/Brain.hpp
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/cwchar:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/os_defines.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/atomic_word.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/locale_facets.tcc:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-.PHONY: all clean fclean re compilation completed linking clean_files clean_exec test_right test_wrong vtest
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/basic_ios.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_algobase.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-I_dont_want_to_set_the_world_on_fire: linking objs/main.o objs/Animal.o objs/Brain.o objs/Dog.o objs/Cat.o
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 64):
-	@$(CC) $(LDFLAGS) $(LIBINC) -o $@ $(OBJS) $(INC) 
-	
-
-vtest: all
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 89):
-	valgrind --leak-check=full ./$(NAME) maps/test.cub
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/new:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/sched.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-test_right: all
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 83):
-	./$(NAME) maps/test.cub
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/range_access.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/cpp_type_traits.h:
-#  Implicit rule search has not been done.
- 
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/char_traits.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/locale_facets.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-objs/Brain.d:
-#  Implicit rule search has been done.
-#  Last modified 2022-08-04 00:54:29.069946453
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/iosfwd:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/wchar.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-.SUFFIXES:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/time.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/streambuf:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-Makefile:
-#  Implicit rule search has been done.
-#  Last modified 2022-08-04 00:54:22.453905163
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-/usr/include/strings.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/ostream_insert.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/memoryfwd.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/stdexcept:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-objs/Animal.d:
-#  Implicit rule search has been done.
-#  Last modified 2022-08-04 00:54:28.85794513
-#  File has been updated.
-#  Successfully updated.
-
-linking:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 108):
-	@echo "$(NAME) Linking in progress..."
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/alloc_traits.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-completed:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 103):
-	@echo "$(GREEN)"
-	@echo "$(NAME) -- Compilation complete !"
-	@echo "$(NO_COLOR)"
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_construct.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-objs/Cat.o: srcs/Cat.cpp includes/Cat.hpp includes/Animal.hpp /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/string /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/c++config.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/os_defines.h /usr/include/features.h /usr/include/stdc-predef.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stringfwd.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/memoryfwd.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/char_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_algobase.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/functexcept.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/exception_defines.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/cpp_type_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/type_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/numeric_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_pair.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/move.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/concept_check.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_iterator_base_types.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_iterator_base_funcs.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/debug/assertions.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_iterator.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/ptr_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/debug/debug.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/predefined_ops.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/postypes.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/cwchar /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/lib/llvm-12/lib/clang/12.0.0/include/stddef.h /usr/lib/llvm-12/lib/clang/12.0.0/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/x86_64-linux-gnu/bits/types/wint_t.h /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/types/locale_t.h /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/allocator.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/c++allocator.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/new_allocator.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/new /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/exception /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/exception.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/localefwd.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/c++locale.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/clocale /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/iosfwd /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/cctype /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/timesize.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/time64.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/endianness.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/ostream_insert.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/cxxabi_forced.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_function.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/backward/binders.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/range_access.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/basic_string.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/atomicity.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/gthr.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/gthr-default.h /usr/include/pthread.h /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h /usr/include/x86_64-linux-gnu/bits/types/clock_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h /usr/include/x86_64-linux-gnu/bits/struct_mutex.h /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/atomic_word.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/alloc_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/alloc_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_construct.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/basic_string.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/iostream /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ostream /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ios /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/ios_base.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/locale_classes.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/locale_classes.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/stdexcept /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/streambuf /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/streambuf.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/basic_ios.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/locale_facets.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/cwctype /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/ctype_base.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/streambuf_iterator.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/locale_facets.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/basic_ios.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/ostream.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/istream /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/istream.tcc /usr/include/string.h /usr/include/strings.h includes/Brain.hpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/features.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/streambuf.tcc:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/cctype:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-test_wrong: all
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 86):
-	./$(NAME) maps/testwrong.cub
-
-# Not a target:
-includes/Dog.hpp:
+srcs/Cat.cpp:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -757,7 +377,242 @@ includes/Dog.hpp:
 #  File has not been updated.
 
 # Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/basic_string.tcc:
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/localefwd.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/predefined_ops.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/cwctype:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/istream.tcc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/streambuf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/exception.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/ext/atomicity.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/strings.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/concept_check.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/ext/type_traits.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/ostream_insert.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/cpp_type_traits.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+objs/Brain.o: srcs/Brain.cpp /usr/include/stdc-predef.h includes/Brain.hpp /usr/include/c++/11/string /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h /usr/include/features.h /usr/include/features-time64.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/timesize.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h /usr/include/c++/11/bits/stringfwd.h /usr/include/c++/11/bits/memoryfwd.h /usr/include/c++/11/bits/char_traits.h /usr/include/c++/11/bits/stl_algobase.h /usr/include/c++/11/bits/functexcept.h /usr/include/c++/11/bits/exception_defines.h /usr/include/c++/11/bits/cpp_type_traits.h /usr/include/c++/11/ext/type_traits.h /usr/include/c++/11/ext/numeric_traits.h /usr/include/c++/11/bits/stl_pair.h /usr/include/c++/11/bits/move.h /usr/include/c++/11/bits/concept_check.h /usr/include/c++/11/bits/stl_iterator_base_types.h /usr/include/c++/11/bits/stl_iterator_base_funcs.h /usr/include/c++/11/debug/assertions.h /usr/include/c++/11/bits/stl_iterator.h /usr/include/c++/11/bits/ptr_traits.h /usr/include/c++/11/debug/debug.h /usr/include/c++/11/bits/predefined_ops.h /usr/include/c++/11/bits/postypes.h /usr/include/c++/11/cwchar /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/x86_64-linux-gnu/bits/types/wint_t.h /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/types/locale_t.h /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h /usr/include/c++/11/bits/allocator.h /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h /usr/include/c++/11/ext/new_allocator.h /usr/include/c++/11/new /usr/include/c++/11/bits/exception.h /usr/include/c++/11/bits/localefwd.h /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h /usr/include/c++/11/clocale /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/11/iosfwd /usr/include/c++/11/cctype /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/time64.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/endianness.h /usr/include/c++/11/bits/ostream_insert.h /usr/include/c++/11/bits/cxxabi_forced.h /usr/include/c++/11/bits/stl_function.h /usr/include/c++/11/backward/binders.h /usr/include/c++/11/bits/range_access.h /usr/include/c++/11/bits/basic_string.h /usr/include/c++/11/ext/atomicity.h /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h /usr/include/pthread.h /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h /usr/include/x86_64-linux-gnu/bits/types/clock_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h /usr/include/x86_64-linux-gnu/bits/struct_mutex.h /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h /usr/include/x86_64-linux-gnu/sys/single_threaded.h /usr/include/c++/11/ext/alloc_traits.h /usr/include/c++/11/bits/alloc_traits.h /usr/include/c++/11/bits/stl_construct.h /usr/include/c++/11/bits/basic_string.tcc /usr/include/c++/11/iostream /usr/include/c++/11/ostream /usr/include/c++/11/ios /usr/include/c++/11/exception /usr/include/c++/11/bits/ios_base.h /usr/include/c++/11/bits/locale_classes.h /usr/include/c++/11/bits/locale_classes.tcc /usr/include/c++/11/stdexcept /usr/include/c++/11/streambuf /usr/include/c++/11/bits/streambuf.tcc /usr/include/c++/11/bits/basic_ios.h /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h /usr/include/c++/11/bits/streambuf_iterator.h /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h /usr/include/c++/11/bits/locale_facets.tcc /usr/include/c++/11/bits/basic_ios.tcc /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream /usr/include/c++/11/bits/istream.tcc
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/main.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-04 10:56:25.330394934
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/11/bits/locale_classes.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/stl_construct.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/stl_algobase.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/cxxabi_forced.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/locale_facets.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-04 10:56:23.110262544
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/11/cwchar:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/Dog.cpp:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -771,184 +626,8 @@ clean_exec:
 	@echo "$(NAME) Cleaning executable..."
 
 # Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/allocator.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/istream:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/postypes.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/new_allocator.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/numeric_traits.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/string:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/lib/llvm-12/lib/clang/12.0.0/include/stdarg.h:
-#  Implicit rule search has not been done.
  
-#  Modification time never checked.
- 
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ios:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-fclean: clean clean_exec
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 77):
-	@rm -f $(NAME)
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/iostream:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/debug/debug.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/string.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/alloc_traits.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_iterator_base_funcs.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-srcs/main.cpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/basic_string.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-objs/Brain.o: srcs/Brain.cpp includes/Brain.hpp /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/string /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/c++config.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/os_defines.h /usr/include/features.h /usr/include/stdc-predef.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stringfwd.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/memoryfwd.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/char_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_algobase.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/functexcept.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/exception_defines.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/cpp_type_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/type_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/numeric_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_pair.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/move.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/concept_check.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_iterator_base_types.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_iterator_base_funcs.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/debug/assertions.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_iterator.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/ptr_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/debug/debug.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/predefined_ops.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/postypes.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/cwchar /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/lib/llvm-12/lib/clang/12.0.0/include/stddef.h /usr/lib/llvm-12/lib/clang/12.0.0/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/x86_64-linux-gnu/bits/types/wint_t.h /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/types/locale_t.h /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/allocator.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/c++allocator.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/new_allocator.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/new /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/exception /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/exception.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/localefwd.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/c++locale.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/clocale /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/iosfwd /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/cctype /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/timesize.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/time64.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/endianness.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/ostream_insert.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/cxxabi_forced.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_function.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/backward/binders.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/range_access.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/basic_string.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/atomicity.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/gthr.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/gthr-default.h /usr/include/pthread.h /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h /usr/include/x86_64-linux-gnu/bits/types/clock_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h /usr/include/x86_64-linux-gnu/bits/struct_mutex.h /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/atomic_word.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/alloc_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/alloc_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_construct.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/basic_string.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/iostream /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ostream /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ios /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/ios_base.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/locale_classes.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/locale_classes.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/stdexcept /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/streambuf /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/streambuf.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/basic_ios.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/locale_facets.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/cwctype /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/ctype_base.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/streambuf_iterator.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/locale_facets.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/basic_ios.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/ostream.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/istream /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/istream.tcc
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/istream.tcc:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/ctype_base.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/locale.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/c++allocator.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-.DEFAULT:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/pthread.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/ios_base.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/functexcept.h:
+includes/Animal.hpp:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -960,56 +639,55 @@ objs/Brain.o: srcs/Brain.cpp includes/Brain.hpp /usr/bin/../lib/gcc/x86_64-linux
 #  File has not been updated.
 
 # Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_iterator_base_types.h:
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+/usr/include/c++/11/backward/binders.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/locale_classes.tcc:
+/usr/include/wchar.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-/usr/lib/llvm-12/lib/clang/12.0.0/include/stddef.h:
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-/usr/include/ctype.h:
+/usr/include/c++/11/bits/allocator.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+/usr/include/pthread.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-
-re: fclean
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 80):
-	@make all $(SILENT)
 
 # Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/atomicity.h:
+/usr/include/features-time64.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
-objs/Animal.o: srcs/Animal.cpp includes/Animal.hpp /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/string /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/c++config.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/os_defines.h /usr/include/features.h /usr/include/stdc-predef.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stringfwd.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/memoryfwd.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/char_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_algobase.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/functexcept.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/exception_defines.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/cpp_type_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/type_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/numeric_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_pair.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/move.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/concept_check.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_iterator_base_types.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_iterator_base_funcs.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/debug/assertions.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_iterator.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/ptr_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/debug/debug.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/predefined_ops.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/postypes.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/cwchar /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/lib/llvm-12/lib/clang/12.0.0/include/stddef.h /usr/lib/llvm-12/lib/clang/12.0.0/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/x86_64-linux-gnu/bits/types/wint_t.h /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/types/locale_t.h /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/allocator.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/c++allocator.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/new_allocator.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/new /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/exception /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/exception.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/localefwd.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/c++locale.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/clocale /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/iosfwd /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/cctype /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/timesize.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/time64.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/endianness.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/ostream_insert.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/cxxabi_forced.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_function.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/backward/binders.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/range_access.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/basic_string.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/atomicity.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/gthr.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/gthr-default.h /usr/include/pthread.h /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h /usr/include/x86_64-linux-gnu/bits/types/clock_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h /usr/include/x86_64-linux-gnu/bits/struct_mutex.h /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/atomic_word.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/alloc_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/alloc_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_construct.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/basic_string.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/iostream /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ostream /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ios /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/ios_base.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/locale_classes.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/locale_classes.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/stdexcept /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/streambuf /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/streambuf.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/basic_ios.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/locale_facets.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/cwctype /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/ctype_base.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/streambuf_iterator.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/locale_facets.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/basic_ios.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/ostream.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/istream /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/istream.tcc /usr/include/string.h /usr/include/strings.h
+# Not a target:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/alloc_traits.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -1025,69 +703,50 @@ clean: clean_files
 	@rm -rf $(OBJ_PATH)
 
 # Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/localefwd.h:
+/usr/include/c++/11/bits/range_access.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-objs/Dog.d:
+includes/Brain.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/stringfwd.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/Cat.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-04 00:54:29.290947832
+#  Last modified 2022-08-04 10:56:25.818424068
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+/usr/include/c++/11/debug/assertions.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/exception:
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_pair.h:
+includes/Dog.hpp:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stringfwd.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
- 
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/type_traits.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/locale_classes.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -1099,13 +758,345 @@ objs/Dog.d:
 #  File has not been updated.
 
 # Not a target:
-/usr/include/x86_64-linux-gnu/bits/types.h:
+/usr/include/c++/11/bits/char_traits.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/ptr_traits.h:
+/usr/include/features.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/Animal.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-04 10:56:25.446401859
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/11/bits/streambuf_iterator.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+re: fclean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 80):
+	@make all $(SILENT)
+
+linking:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 108):
+	@echo "$(NAME) Linking in progress..."
+
+# Not a target:
+/usr/include/c++/11/bits/ostream.tcc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/Brain.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/wctype.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/iostream:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/locale_facets.tcc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+includes/Cat.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/ostream:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/ext/new_allocator.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/new:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/stl_function.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/ext/numeric_traits.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+objs/main.o: srcs/main.cpp /usr/include/stdc-predef.h includes/Dog.hpp includes/Animal.hpp /usr/include/c++/11/string /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h /usr/include/features.h /usr/include/features-time64.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/timesize.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h /usr/include/c++/11/bits/stringfwd.h /usr/include/c++/11/bits/memoryfwd.h /usr/include/c++/11/bits/char_traits.h /usr/include/c++/11/bits/stl_algobase.h /usr/include/c++/11/bits/functexcept.h /usr/include/c++/11/bits/exception_defines.h /usr/include/c++/11/bits/cpp_type_traits.h /usr/include/c++/11/ext/type_traits.h /usr/include/c++/11/ext/numeric_traits.h /usr/include/c++/11/bits/stl_pair.h /usr/include/c++/11/bits/move.h /usr/include/c++/11/bits/concept_check.h /usr/include/c++/11/bits/stl_iterator_base_types.h /usr/include/c++/11/bits/stl_iterator_base_funcs.h /usr/include/c++/11/debug/assertions.h /usr/include/c++/11/bits/stl_iterator.h /usr/include/c++/11/bits/ptr_traits.h /usr/include/c++/11/debug/debug.h /usr/include/c++/11/bits/predefined_ops.h /usr/include/c++/11/bits/postypes.h /usr/include/c++/11/cwchar /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/x86_64-linux-gnu/bits/types/wint_t.h /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/types/locale_t.h /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h /usr/include/c++/11/bits/allocator.h /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h /usr/include/c++/11/ext/new_allocator.h /usr/include/c++/11/new /usr/include/c++/11/bits/exception.h /usr/include/c++/11/bits/localefwd.h /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h /usr/include/c++/11/clocale /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/11/iosfwd /usr/include/c++/11/cctype /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/time64.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/endianness.h /usr/include/c++/11/bits/ostream_insert.h /usr/include/c++/11/bits/cxxabi_forced.h /usr/include/c++/11/bits/stl_function.h /usr/include/c++/11/backward/binders.h /usr/include/c++/11/bits/range_access.h /usr/include/c++/11/bits/basic_string.h /usr/include/c++/11/ext/atomicity.h /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h /usr/include/pthread.h /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h /usr/include/x86_64-linux-gnu/bits/types/clock_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h /usr/include/x86_64-linux-gnu/bits/struct_mutex.h /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h /usr/include/x86_64-linux-gnu/sys/single_threaded.h /usr/include/c++/11/ext/alloc_traits.h /usr/include/c++/11/bits/alloc_traits.h /usr/include/c++/11/bits/stl_construct.h /usr/include/c++/11/bits/basic_string.tcc /usr/include/c++/11/iostream /usr/include/c++/11/ostream /usr/include/c++/11/ios /usr/include/c++/11/exception /usr/include/c++/11/bits/ios_base.h /usr/include/c++/11/bits/locale_classes.h /usr/include/c++/11/bits/locale_classes.tcc /usr/include/c++/11/stdexcept /usr/include/c++/11/streambuf /usr/include/c++/11/bits/streambuf.tcc /usr/include/c++/11/bits/basic_ios.h /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h /usr/include/c++/11/bits/streambuf_iterator.h /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h /usr/include/c++/11/bits/locale_facets.tcc /usr/include/c++/11/bits/basic_ios.tcc /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream /usr/include/c++/11/bits/istream.tcc /usr/include/string.h /usr/include/strings.h includes/Brain.hpp includes/Cat.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/sched.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+I_dont_want_to_set_the_world_on_fire: linking objs/main.o objs/Animal.o objs/Brain.o objs/Dog.o objs/Cat.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 64):
+	@$(CC) $(LDFLAGS) $(LIBINC) -o $@ $(OBJS) $(INC) 
+	
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/string.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/stl_iterator_base_types.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/clocale:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test_wrong: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 86):
+	./$(NAME) maps/testwrong.cub
+
+all:
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/15=7%
+#  recipe to execute (from 'Makefile', line 59):
+	@make compilation $(SILENT)
+	@make $(NAME) $(SILENT)
+	@make completed $(SILENT)
+
+fclean: clean clean_exec
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 77):
+	@rm -f $(NAME)
+
+# Not a target:
+/usr/include/c++/11/bits/functexcept.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/basic_ios.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/stl_iterator.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+vtest: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 89):
+	valgrind --leak-check=full ./$(NAME) maps/test.cub
+
+# Not a target:
+/usr/include/c++/11/debug/debug.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/stdc-predef.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/string:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/basic_ios.tcc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/istream:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -1118,129 +1109,208 @@ clean_files:
 #  recipe to execute (from 'Makefile', line 111):
 	@echo "$(NAME) Cleaning files..."
 
+completed:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 103):
+	@echo "$(GREEN)"
+	@echo "$(NAME) -- Compilation complete !"
+	@echo "$(NO_COLOR)"
+
 # Not a target:
-objs/main.d:
+/usr/include/c++/11/cctype:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+# Not a target:
+/usr/include/c++/11/bits/ios_base.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+objs/Dog.o: srcs/Dog.cpp /usr/include/stdc-predef.h includes/Dog.hpp includes/Animal.hpp /usr/include/c++/11/string /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h /usr/include/features.h /usr/include/features-time64.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/timesize.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h /usr/include/c++/11/bits/stringfwd.h /usr/include/c++/11/bits/memoryfwd.h /usr/include/c++/11/bits/char_traits.h /usr/include/c++/11/bits/stl_algobase.h /usr/include/c++/11/bits/functexcept.h /usr/include/c++/11/bits/exception_defines.h /usr/include/c++/11/bits/cpp_type_traits.h /usr/include/c++/11/ext/type_traits.h /usr/include/c++/11/ext/numeric_traits.h /usr/include/c++/11/bits/stl_pair.h /usr/include/c++/11/bits/move.h /usr/include/c++/11/bits/concept_check.h /usr/include/c++/11/bits/stl_iterator_base_types.h /usr/include/c++/11/bits/stl_iterator_base_funcs.h /usr/include/c++/11/debug/assertions.h /usr/include/c++/11/bits/stl_iterator.h /usr/include/c++/11/bits/ptr_traits.h /usr/include/c++/11/debug/debug.h /usr/include/c++/11/bits/predefined_ops.h /usr/include/c++/11/bits/postypes.h /usr/include/c++/11/cwchar /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/x86_64-linux-gnu/bits/types/wint_t.h /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/types/locale_t.h /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h /usr/include/c++/11/bits/allocator.h /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h /usr/include/c++/11/ext/new_allocator.h /usr/include/c++/11/new /usr/include/c++/11/bits/exception.h /usr/include/c++/11/bits/localefwd.h /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h /usr/include/c++/11/clocale /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/11/iosfwd /usr/include/c++/11/cctype /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/time64.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/endianness.h /usr/include/c++/11/bits/ostream_insert.h /usr/include/c++/11/bits/cxxabi_forced.h /usr/include/c++/11/bits/stl_function.h /usr/include/c++/11/backward/binders.h /usr/include/c++/11/bits/range_access.h /usr/include/c++/11/bits/basic_string.h /usr/include/c++/11/ext/atomicity.h /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h /usr/include/pthread.h /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h /usr/include/x86_64-linux-gnu/bits/types/clock_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h /usr/include/x86_64-linux-gnu/bits/struct_mutex.h /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h /usr/include/x86_64-linux-gnu/sys/single_threaded.h /usr/include/c++/11/ext/alloc_traits.h /usr/include/c++/11/bits/alloc_traits.h /usr/include/c++/11/bits/stl_construct.h /usr/include/c++/11/bits/basic_string.tcc /usr/include/c++/11/iostream /usr/include/c++/11/ostream /usr/include/c++/11/ios /usr/include/c++/11/exception /usr/include/c++/11/bits/ios_base.h /usr/include/c++/11/bits/locale_classes.h /usr/include/c++/11/bits/locale_classes.tcc /usr/include/c++/11/stdexcept /usr/include/c++/11/streambuf /usr/include/c++/11/bits/streambuf.tcc /usr/include/c++/11/bits/basic_ios.h /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h /usr/include/c++/11/bits/streambuf_iterator.h /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h /usr/include/c++/11/bits/locale_facets.tcc /usr/include/c++/11/bits/basic_ios.tcc /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream /usr/include/c++/11/bits/istream.tcc /usr/include/string.h /usr/include/strings.h includes/Brain.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/time.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/ctype.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/streambuf.tcc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/stdexcept:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/locale.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/main.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/ptr_traits.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/memoryfwd.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/basic_string.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/locale_classes.tcc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/Brain.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-04 00:54:28.637943757
+#  Last modified 2022-08-04 10:56:25.558408546
+#  File has been updated.
+#  Successfully updated.
+
+test_right: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	./$(NAME) maps/test.cub
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
+#  Implicit rule search has not been done.
+ 
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/Dog.d:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-04 10:56:25.682415949
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+/usr/include/c++/11/bits/exception_defines.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-srcs/Cat.cpp:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all clean fclean re compilation completed linking clean_files clean_exec test_right test_wrong vtest
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/backward/binders.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/c++config.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_iterator.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/streambuf_iterator.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/clocale:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-includes/Cat.hpp:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/c++locale.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/debug/assertions.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/exception.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/stdc-predef.h:
+/usr/include/c++/11/bits/postypes.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -1254,87 +1324,73 @@ compilation:
 	@echo "$(NAME) Compilation in progress..."
 
 # Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/move.h:
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-srcs/Brain.cpp:
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+objs/Animal.o: srcs/Animal.cpp /usr/include/stdc-predef.h includes/Animal.hpp /usr/include/c++/11/string /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h /usr/include/features.h /usr/include/features-time64.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/timesize.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h /usr/include/c++/11/bits/stringfwd.h /usr/include/c++/11/bits/memoryfwd.h /usr/include/c++/11/bits/char_traits.h /usr/include/c++/11/bits/stl_algobase.h /usr/include/c++/11/bits/functexcept.h /usr/include/c++/11/bits/exception_defines.h /usr/include/c++/11/bits/cpp_type_traits.h /usr/include/c++/11/ext/type_traits.h /usr/include/c++/11/ext/numeric_traits.h /usr/include/c++/11/bits/stl_pair.h /usr/include/c++/11/bits/move.h /usr/include/c++/11/bits/concept_check.h /usr/include/c++/11/bits/stl_iterator_base_types.h /usr/include/c++/11/bits/stl_iterator_base_funcs.h /usr/include/c++/11/debug/assertions.h /usr/include/c++/11/bits/stl_iterator.h /usr/include/c++/11/bits/ptr_traits.h /usr/include/c++/11/debug/debug.h /usr/include/c++/11/bits/predefined_ops.h /usr/include/c++/11/bits/postypes.h /usr/include/c++/11/cwchar /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/x86_64-linux-gnu/bits/types/wint_t.h /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/types/locale_t.h /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h /usr/include/c++/11/bits/allocator.h /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h /usr/include/c++/11/ext/new_allocator.h /usr/include/c++/11/new /usr/include/c++/11/bits/exception.h /usr/include/c++/11/bits/localefwd.h /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h /usr/include/c++/11/clocale /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/11/iosfwd /usr/include/c++/11/cctype /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/time64.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/endianness.h /usr/include/c++/11/bits/ostream_insert.h /usr/include/c++/11/bits/cxxabi_forced.h /usr/include/c++/11/bits/stl_function.h /usr/include/c++/11/backward/binders.h /usr/include/c++/11/bits/range_access.h /usr/include/c++/11/bits/basic_string.h /usr/include/c++/11/ext/atomicity.h /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h /usr/include/pthread.h /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h /usr/include/x86_64-linux-gnu/bits/types/clock_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h /usr/include/x86_64-linux-gnu/bits/struct_mutex.h /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h /usr/include/x86_64-linux-gnu/sys/single_threaded.h /usr/include/c++/11/ext/alloc_traits.h /usr/include/c++/11/bits/alloc_traits.h /usr/include/c++/11/bits/stl_construct.h /usr/include/c++/11/bits/basic_string.tcc /usr/include/c++/11/iostream /usr/include/c++/11/ostream /usr/include/c++/11/ios /usr/include/c++/11/exception /usr/include/c++/11/bits/ios_base.h /usr/include/c++/11/bits/locale_classes.h /usr/include/c++/11/bits/locale_classes.tcc /usr/include/c++/11/stdexcept /usr/include/c++/11/streambuf /usr/include/c++/11/bits/streambuf.tcc /usr/include/c++/11/bits/basic_ios.h /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h /usr/include/c++/11/bits/streambuf_iterator.h /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h /usr/include/c++/11/bits/locale_facets.tcc /usr/include/c++/11/bits/basic_ios.tcc /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream /usr/include/c++/11/bits/istream.tcc /usr/include/string.h /usr/include/strings.h
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-includes/Brain.hpp:
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-/usr/include/sched.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/cwctype:
+/usr/include/c++/11/bits/move.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ostream:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-objs/Dog.o: srcs/Dog.cpp includes/Dog.hpp includes/Animal.hpp /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/string /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/c++config.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/os_defines.h /usr/include/features.h /usr/include/stdc-predef.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/cpu_defines.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stringfwd.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/memoryfwd.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/char_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_algobase.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/functexcept.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/exception_defines.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/cpp_type_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/type_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/numeric_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_pair.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/move.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/concept_check.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_iterator_base_types.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_iterator_base_funcs.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/debug/assertions.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_iterator.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/ptr_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/debug/debug.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/predefined_ops.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/postypes.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/cwchar /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/lib/llvm-12/lib/clang/12.0.0/include/stddef.h /usr/lib/llvm-12/lib/clang/12.0.0/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/x86_64-linux-gnu/bits/types/wint_t.h /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/types/locale_t.h /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/allocator.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/c++allocator.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/new_allocator.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/new /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/exception /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/exception.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/localefwd.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/c++locale.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/clocale /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/iosfwd /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/cctype /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/timesize.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/time64.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/endianness.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/ostream_insert.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/cxxabi_forced.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_function.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/backward/binders.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/range_access.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/basic_string.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/atomicity.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/gthr.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/gthr-default.h /usr/include/pthread.h /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h /usr/include/x86_64-linux-gnu/bits/types/clock_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h /usr/include/x86_64-linux-gnu/bits/struct_mutex.h /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/atomic_word.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ext/alloc_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/alloc_traits.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/stl_construct.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/basic_string.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/iostream /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ostream /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/ios /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/ios_base.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/locale_classes.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/locale_classes.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/stdexcept /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/streambuf /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/streambuf.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/basic_ios.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/locale_facets.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/cwctype /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/ctype_base.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/streambuf_iterator.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/ctype_inline.h /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/locale_facets.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/basic_ios.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/ostream.tcc /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/istream /usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/istream.tcc /usr/include/string.h /usr/include/strings.h includes/Brain.hpp
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+ 
+/usr/include/c++/11/ios:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/bits/cxxabi_forced.h:
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10/bits/gthr.h:
+/usr/include/c++/11/exception:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=162/1024=16%, Rehash=0, Collisions=63/859=7%
+# Load=168/1024=16%, Rehash=0, Collisions=88/895=10%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 2 (1) / strings = 172 / storage = 9052 B / avg = 52 B
-# current buf: size = 8162 B / used = 928 B / count = 18 / avg = 51 B
-# other used: total = 8124 B / count = 154 / avg = 52 B
-# other free: total = 38 B / max = 38 B / min = 38 B / avg = 38 B
+# strcache buffers: 1 (0) / strings = 178 / storage = 6081 B / avg = 34 B
+# current buf: size = 8162 B / used = 6081 B / count = 178 / avg = 34 B
 
-# strcache performance: lookups = 739 / hit rate = 76%
+# strcache performance: lookups = 769 / hit rate = 76%
 # hash-table stats:
- 
-# Load=172/8192=2%, Rehash=0, Collisions=16/739=2%
-# Finished Make data base on Thu Aug  4 00:55:07 2022
+# Load=178/8192=2%, Rehash=0, Collisions=4/769=1%
+# Finished Make data base on Thu Aug  4 10:56:48 2022
 
  

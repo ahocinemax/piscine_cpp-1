@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/02 21:20:28 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/04 01:07:48 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/04 11:04:11 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ Dog & Dog::operator=(const Dog& rhs)
 		this->_type = rhs._type;
 		delete this->_brain;
 		_brain = new Brain();
-		this->_brain = rhs._brain;
+		*_brain = *(rhs._brain);
 	}
 	std::cout << _type << " : assignment constructor called" << std::endl;
 	return (*this);
