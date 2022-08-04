@@ -9,6 +9,8 @@ int main()
 	delete j;//should not create a leak
 	delete i;
 
+	// A_Animal anil = new A_Animal();
+
 	A_Animal * arrayA_Animal[4];
 	while (k < 2)
 	{
