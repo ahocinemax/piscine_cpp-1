@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/06 20:10:02 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/07 13:44:43 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/07 15:08:04 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,9 @@ class Bureaucrat
 
 		const std::string& getName() const;
 		const int& getGrade() const;
+		void incrementGrade();
+		void decrementGrade();
+
 		
 		class GradeTooHighException : public std::exception
 		{

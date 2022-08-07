@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/06 20:09:41 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/07 13:50:45 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/07 15:13:39 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,6 +67,26 @@ const int& Bureaucrat::getGrade() const
 {
 	return (_grade);
 }
+
+void Bureaucrat::incrementGrade()
+{
+	if (_grade - 1 < 1)
+	{
+		throw Bureaucrat::GradeTooHighException();
+	}
+	_grade--;
+}
+
+void Bureaucrat::decrementGrade()
+{
+	if (_grade + 1 > 150 )
+	{
+		throw Bureaucrat::GradeTooLowException();
+	}
+	_grade++;
+}
+
+//OVERLOAD 
 
 std::ostream & operator<<(std::ostream &stream, const Bureaucrat & bureaucrat)
 {
