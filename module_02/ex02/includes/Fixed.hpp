@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/28 14:49:52 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/10 19:57:42 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/10 21:03:47 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,29 @@ class	Fixed
 		Fixed(const int nbr);
 		Fixed(const float nbr);
 		Fixed(const Fixed& old);
-		Fixed& operator=(const Fixed& old);
+		Fixed& operator=(const Fixed& rhs);
+		bool operator>(const Fixed& rhs);
+		bool operator<(const Fixed& rhs);
+		bool operator>=(const Fixed& rhs);
+		bool operator<=(const Fixed& rhs);
+		bool operator!=(const Fixed& rhs);
+		bool operator==(const Fixed& rhs);
+		Fixed operator+(const Fixed& rhs);
+		Fixed operator-(const Fixed& rhs);
+		Fixed operator/(const Fixed& rhs);
+		Fixed operator*(const Fixed& rhs);
+		
+		Fixed operator++();
+		Fixed operator--();
+		Fixed operator++(int);
+		Fixed operator--(int);
+		
+		static Fixed & min(const Fixed& fxt1, const Fixed& fxt2);
+		static Fixed & min(Fixed& fxt1, Fixed& fxt2);
+		static Fixed & max(const Fixed& fxt1, const Fixed& fxt2);
+		static Fixed & max(Fixed& fxt1, Fixed& fxt2);
+
+		
 		~Fixed(void);
 		
 		const int& getRawBits(void) const;
