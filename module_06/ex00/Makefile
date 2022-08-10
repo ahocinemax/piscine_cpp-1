@@ -1,11 +1,11 @@
-NAME = harlFilter
+NAME = coffeemaker
 
 ################################################################################
 #                           COMPILATION SETTING                        	       #
 ################################################################################
 
-CC		= c++
-CFLAGS	= -Wall -Wextra  -MD -std=c++98 -g3
+CC	= c++
+CFLAGS	= -Wall -Wextra -Werror -MD -std=c++98
 LDFLAGS	= -Wall -Wextra -Werror -std=c++98
 SILENT	= --no-print-directory
 
@@ -14,9 +14,12 @@ SILENT	= --no-print-directory
 ################################################################################
 
 SRCS =	main.cpp \
-		Harl.cpp \
-		
-
+		Bureaucrat.cpp \
+		Form.cpp \
+		ShrubberyCreationForm.cpp \
+		PresidentialPardonForm.cpp \
+		RobotomyRequestForm.cpp \
+		Intern.cpp
 		
 ################################################################################
 #                               INCLUDES                             	       #
@@ -77,15 +80,6 @@ fclean : clean clean_exec
 
 re : fclean 
 	@make all $(SILENT)
-
-test_right : all
-	./$(NAME) maps/test.cub
-
-test_wrong : all
-	./$(NAME) maps/testwrong.cub
-
-vtest : all
-	valgrind --leak-check=full ./$(NAME) maps/test.cub
 
 .PHONY : all clean fclean re compilation completed linking clean_files clean_exec test_right test_wrong vtest
 
