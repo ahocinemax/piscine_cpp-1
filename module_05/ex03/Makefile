@@ -1,11 +1,11 @@
-NAME = form28b
+NAME = coffeemaker
 
 ################################################################################
 #                           COMPILATION SETTING                        	       #
 ################################################################################
 
 CC	= c++
-CFLAGS	= -Wall -Wextra -MD -std=c++98
+CFLAGS	= -Wall -Wextra -Werror -MD -std=c++98
 LDFLAGS	= -Wall -Wextra -Werror -std=c++98
 SILENT	= --no-print-directory
 
@@ -18,8 +18,8 @@ SRCS =	main.cpp \
 		Form.cpp \
 		ShrubberyCreationForm.cpp \
 		PresidentialPardonForm.cpp \
-		RobotomyRequestForm.cpp
-		
+		RobotomyRequestForm.cpp \
+		Intern.cpp
 		
 ################################################################################
 #                               INCLUDES                             	       #

@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/29 11:08:57 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/07/29 11:08:58 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/10 08:59:48 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@ void Harl::complain(std::string level)
 	{
 		if(level == str[i])
 		{
-			(this->*f[i])(); //Need some explanation for this line
+			(this->*f[i])();
 			return ;
 		}
 	}
