@@ -5,7 +5,7 @@ NAME = My_First_Class_in_Orthodox_Canonical_Form
 ################################################################################
 
 CC		= c++
-CFLAGS	= -Wall -Wextra -Werror -MD -std=c++98
+CFLAGS	= -Wall -Wextra -MD -std=c++98
 LDFLAGS	= -Wall -Wextra -Werror -std=c++98
 SILENT	= --no-print-directory
 

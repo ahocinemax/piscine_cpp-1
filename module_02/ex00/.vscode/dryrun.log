@@ -1,4 +1,4 @@
-make --dry-run --keep-going --print-directory
+make --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/home/nicolas/Documents/github/piscine_cpp/module_02/ex00'
 make compilation --no-print-directory
 make My_First_Class_in_Orthodox_Canonical_Form --no-print-directory
