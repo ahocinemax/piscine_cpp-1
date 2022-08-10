@@ -2,28 +2,17 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target 'all'.  Stop.
 
 # GNU Make 4.3
- 
 # Built for x86_64-pc-linux-gnu
- 
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
- 
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
- 
 # This is free software: you are free to change and redistribute it.
- 
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
- 
-# Make data base, printed on Mon Jul 25 12:32:05 2022
- 
+# Make data base, printed on Wed Aug 10 11:07:31 2022
 
 # Variables
- 
 
- 
 # environment
- 
 GDK_BACKEND = x11
 # environment
 LC_ALL = C
@@ -38,7 +27,7 @@ LC_NAME = fr_FR.UTF-8
 # environment
 LC_NUMERIC = fr_FR.UTF-8
 # environment
-VSCODE_CWD = /home/nicolas/Documents/piscine_cpp/module_01
+VSCODE_CWD = /home/nicolas/Documents/github/piscine_cpp/module_01
 # environment
 LC_ADDRESS = fr_FR.UTF-8
 # default
@@ -50,41 +39,41 @@ QT_ACCESSIBILITY = 1
 # environment
 SNAP_INSTANCE_NAME = code
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/102/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/103/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
 # environment
-PWD = /home/nicolas/Documents/piscine_cpp/module_01
+PWD = /home/nicolas/Documents/github/piscine_cpp/module_01
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
-XDG_DATA_DIRS = /usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+XDG_DATA_DIRS = /home/nicolas/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
-OLDPWD = /home/nicolas/Documents/piscine_cpp
+OLDPWD = /home/nicolas/Documents/github/piscine_cpp
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/nicolas/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+VSCODE_CODE_CACHE_PATH = /home/nicolas/.config/Code/CachedData/da76f93349a72022ca4670c1b84860304616aaa2
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.3IJPP1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.TVIVQ1
 # default
 .LOADED := 
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
 # environment
-GNOME_TERMINAL_SERVICE = :1.468
+GNOME_TERMINAL_SERVICE = :1.138
 # makefile
 MAKEFLAGS = pqrR
 # makefile
-CURDIR := /home/nicolas/Documents/piscine_cpp/module_01
+CURDIR := /home/nicolas/Documents/github/piscine_cpp/module_01
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
@@ -101,7 +90,6 @@ WAYLAND_DISPLAY = wayland-0
 +D = $(patsubst %/,%,$(dir $+))
 # environment
 XDG_SESSION_DESKTOP = ubuntu
- 
 # makefile
 MAKEFILE_LIST := 
 # environment
@@ -111,13 +99,13 @@ SNAP_REEXEC =
 # environment
 ZSH = /home/nicolas/.oh-my-zsh
 # environment
-VSCODE_PID = 15556
+VSCODE_PID = 21933
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/nicolas-Lenovo-ideapad-320S-15AST:@/tmp/.ICE-unix/1458,unix/nicolas-Lenovo-ideapad-320S-15AST:/tmp/.ICE-unix/1458
+SESSION_MANAGER = local/nicolas-XPS-15-9500:@/tmp/.ICE-unix/2166,unix/nicolas-XPS-15-9500:/tmp/.ICE-unix/2166
 # automatic
 *F = $(notdir $*)
 # environment
@@ -141,13 +129,13 @@ XMODIFIERS = @im=ibus
 # environment
 SHLVL = 1
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/9f5e3923_0747_409c_ace2_1023dd0be420
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/bdc50966_c89a_43bb_ad9e_7e07a13273db
 # environment
 MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-SNAP_COOKIE = cM9QbxHXx-DvuimAqavFddO9PvA_xbrI24YMz2BrpN7eyM4OZ-jL
+SNAP_COOKIE = CEZt7BCZrKMVXecjmrxbDPMiQffLKbiX-_bOEGc96lgjms7V65r5
 # environment
 PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
 # default
@@ -161,9 +149,9 @@ SNAP_USER_COMMON = /home/nicolas/snap/code/common
 # environment
 LC_TIME = fr_FR.UTF-8
 # environment
-SNAP = /snap/code/102
+SNAP = /snap/code/103
 # environment
-SNAP_REVISION = 102
+SNAP_REVISION = 103
 # environment
 SNAP_REAL_HOME = /home/nicolas
 # environment
@@ -195,21 +183,21 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 1748
+SYSTEMD_EXEC_PID = 2319
 # environment
 DISPLAY = :0
 # environment
 USER = nicolas
 # environment
-GTK_MODULES = gail:atk-bridge
+GTK_MODULES = gail:atk-bridge:appmenu-gtk-module
 # default
 MAKE_VERSION := 4.3
 # environment
 DISABLE_WAYLAND = 1
 # environment
-SNAP_DATA = /var/snap/code/102
+SNAP_DATA = /var/snap/code/103
 # environment
-SNAP_CONTEXT = cM9QbxHXx-DvuimAqavFddO9PvA_xbrI24YMz2BrpN7eyM4OZ-jL
+SNAP_CONTEXT = CEZt7BCZrKMVXecjmrxbDPMiQffLKbiX-_bOEGc96lgjms7V65r5
 # environment
 LC_MEASUREMENT = fr_FR.UTF-8
 # environment
@@ -233,19 +221,19 @@ QT_IM_MODULE = ibus
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-0ed59228-1.69.2-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-0ed59228-1.70.0-main.sock
 # environment
 TERM = xterm-256color
 # environment
 SNAP_NAME = code
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/102/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/103/usr/share/glib-2.0/schemas
 # default
 .RECIPEPREFIX := 
 # automatic
 <F = $(notdir $<)
 # environment
-SNAP_VERSION = 3b889b09
+SNAP_VERSION = da76f933
 # default
 SUFFIXES := 
 # environment
@@ -259,7 +247,7 @@ SNAP_COMMON = /var/snap/code/common
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # environment
-SNAP_USER_DATA = /home/nicolas/snap/code/102
+SNAP_USER_DATA = /home/nicolas/snap/code/103
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
@@ -277,9 +265,9 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 2050, inode 5901088): 5 files, no impossibilities.
+# . (device 66309, inode 4063375): 11 files, no impossibilities.
 
-# 5 files, no impossibilities in 1 directories.
+# 11 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -329,12 +317,13 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 13 / storage = 118 B / avg = 9 B
-# current buf: size = 8162 B / used = 118 B / count = 13 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 19 / storage = 148 B / avg = 7 B
+# current buf: size = 8162 B / used = 148 B / count = 19 / avg = 7 B
 
-# strcache performance: lookups = 16 / hit rate = 18%
+# strcache performance: lookups = 22 / hit rate = 13%
 # hash-table stats:
-# Load=13/8192=0%, Rehash=0, Collisions=0/16=0%
-# Finished Make data base on Mon Jul 25 12:32:05 2022
+ 
+# Load=19/8192=0%, Rehash=0, Collisions=0/22=0%
+# Finished Make data base on Wed Aug 10 11:07:31 2022
 
  

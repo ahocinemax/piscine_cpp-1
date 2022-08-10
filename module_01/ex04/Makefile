@@ -5,7 +5,7 @@ NAME = sed_is_for_losers
 ################################################################################
 
 CC		= c++
-CFLAGS	= -Wall -Wextra -MD -std=c++98 -g3
+CFLAGS	= -Wall -Wextra -Werror -MD -std=c++98 -g3
 LDFLAGS	= -Wall -Wextra -Werror -std=c++98
 SILENT	= --no-print-directory
 
