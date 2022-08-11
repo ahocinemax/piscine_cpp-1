@@ -5,7 +5,7 @@ NAME = diamondtrap
 ################################################################################
 
 CC		= c++
-CFLAGS	= -Wall -Wextra -Wshadow -Wno-shadow -MD -std=c++98
+CFLAGS	= -Wall -Wextra -Werror -Wshadow -Wno-shadow -MD -std=c++98
 LDFLAGS	= -Wall -Wextra -Werror -Wshadow -Wno-shadow -std=c++98
 SILENT	= --no-print-directory
 
