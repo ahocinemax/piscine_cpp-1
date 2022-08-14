@@ -87,8 +87,11 @@ test_right : all
 test_wrong : all
 	./$(NAME) maps/testwrong.cub
 
+test : all
+	./$(NAME)
+
 vtest : all
-	valgrind --leak-check=full ./$(NAME) maps/test.cub
+	valgrind --leak-check=full ./$(NAME)
 
 .PHONY : all clean fclean re compilation completed linking clean_files clean_exec test_right test_wrong vtest
 
