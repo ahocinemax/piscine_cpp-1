@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/17 14:09:47 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/17 14:29:28 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/17 14:31:28 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,8 +24,8 @@ Data* deserialize(uintptr_t raw)
 
 int main()
 {
-
-	Data objct(15);
+	Data	objct(15);
+	
 	std::cout << "Serialization" << std::endl;
 	std::cout << "Value before deserialization : " << objct.getValue() << std::endl;
 	
@@ -34,7 +34,7 @@ int main()
 	
 	std::cout << std::endl;
 	std::cout << "Deserialization" << std::endl;
-	Data * restore = deserialize(ptr);
+	Data *restore = deserialize(ptr);
 	std::cout << "Value after deserialization : " << restore->getValue() << std::endl;
 	
 	return (0);
