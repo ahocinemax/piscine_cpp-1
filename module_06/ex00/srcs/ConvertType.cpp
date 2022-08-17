@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/14 18:35:22 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/17 11:28:45 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/17 11:47:24 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,7 @@ void convert_to_float(std::string str)
 		std::cout << "int : impossible" << std::endl;
 	else
 		std::cout << "int : " << static_cast<int>(nbr) << std::endl;
-	if(nbr < FLT_MIN || nbr > FLT_MAX)
+	if((nbr < FLT_MIN || nbr > FLT_MAX) && nbr != 0)
 	{
 		std::cout << "float : impossible" << std::endl;
 		std::cout << "double : " << static_cast<double>(nbr) << std::endl;
@@ -102,7 +102,7 @@ void convert_to_double(std::string str)
 		std::cout << "int : impossible" << std::endl;
 	else
 		std::cout << "int : " << static_cast<int>(nbr) << std::endl;
-	if(nbr < FLT_MIN || nbr > FLT_MAX)
+	if((nbr < FLT_MIN || nbr > FLT_MAX) && nbr != 0)
 	{
 		std::cout << "float : impossible" << std::endl;
 		std::cout << "double : " << static_cast<double>(nbr) << std::endl;

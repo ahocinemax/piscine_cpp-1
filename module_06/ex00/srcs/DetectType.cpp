@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/14 18:30:56 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/17 11:35:59 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/17 11:43:30 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,18 +54,23 @@ bool	ft_is_int(std::string str)
 bool ft_is_float(std::string str)
 {
 	int i = 0;
+	int point_count = 0;
 
 	while (str[i]&& (str[i] == '+' || str[i] == '-')) 
 		i++;
-	while (str[i] && isdigit(str[i]))
+	while (str[i] && (isdigit(str[i]) || str[i] == '.'))
+	{
+		if(str[i] == '.')
+			point_count++;
 		i++;
-	if(str[i] && str[i] == '.')
-		i++;
-	else
-		return(false);
-	while (str[i] && isdigit(str[i]))
-		i++;
-	if(str[i] && str[str.length() - 1] == 'f' && isdigit(str[i - 1]))
+	}
+	// if(str[i] && str[i] == '.')
+	// 	i++;
+	// else
+	// 	return(false);
+	// while (str[i] && isdigit(str[i]))
+	// 	i++;
+	if(str[i] && str[str.length() - 1] == 'f' && isdigit(str[i - 1]) && point_count < 2)
 		return (true);
 	else
 		return (false);

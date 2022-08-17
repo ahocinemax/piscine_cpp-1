@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/14 17:24:33 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/17 11:14:29 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/17 11:49:01 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,19 +44,15 @@ int main(int ac, char **av)
 			switch (type)
 			{
 				case CHAR :
-					std::cout << "CHAR DETECTED" << std::endl;
 					convert_to_char(str);
 					break;
 				case INT :
-					std::cout << "INT DETECTED" << std::endl;
 					convert_to_int(str);
 					break;
 				case FLOAT :
-					std::cout << "FLOAT DETECTED" << std::endl;
 					convert_to_float(str);
 					break;
 				case DOUBLE :
-					std::cout << "DOUBLE DETECTED" << std::endl;
 					convert_to_double(str);
 					break;
 			}
