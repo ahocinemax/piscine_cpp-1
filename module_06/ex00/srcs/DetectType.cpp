@@ -6,16 +6,16 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/14 18:30:56 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/14 19:29:00 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/17 11:35:59 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "DetectType.hpp"
 
-int	detect_type(std::string str) throw()
+int	detect_type(std::string str)
 {
 	int	i = 0;
-	int	(*f[4])(std::string) = {&ft_is_char, &ft_is_int, &ft_is_float, &ft_is_double};
+	bool	(*f[4])(std::string) = {&ft_is_char, &ft_is_int, &ft_is_float, &ft_is_double};
 	
 	while(i < 4)
 	{
@@ -30,54 +30,67 @@ int	detect_type(std::string str) throw()
 
 bool ft_is_char(std::string str)
 {
-	int i = 0;
-	
-	if(str.length() == 0)
-		return (false);
+	if(str.length() == 1 && !isdigit(str[0]))
+		return (true);
 	else
-	{
-		if (str.length() == 1 && isalpha(str[i]) > 0)
-			return(true);
-		while (str[i] && str[i] != ' ')
-		{
-			if (!isalpha(str[i]))
-				return (false);
-		}
-		
-	}
-	
+		return(false);
 }
 
 bool	ft_is_int(std::string str)
 {
-	int	i = 0;
+	int i = 0; 
 	
-	if (str[i] == '-' || str[i] == '+')
+	while (str[i] == '+' || str[i] == '-')
 		i++;
-	del_zero(str, i);
-	while (str[i])
-		if (ft_isdigit(str[i++]) == 0)
-			return (0);
-	if (ft_strlen(str) < 10)
-		return (1);
-	if (ft_strlen (str) > 11)
-		return (0);
-	if (ft_strlen (str) == 10)
-		if (ft_strcmp("2147483647", str) < 0)
-			return (0);
-	if (ft_strlen(str) == 11)
-		if (ft_strcmp("-2147483648", str) < 0)
-			return (0);
-	return (1);
+	while(str[i])
+	{
+		if(!isdigit(str[i]))
+			return(false);
+		i++;
+	}
+	return(true);
 }
 
 bool ft_is_float(std::string str)
 {
+	int i = 0;
+
+	while (str[i]&& (str[i] == '+' || str[i] == '-')) 
+		i++;
+	while (str[i] && isdigit(str[i]))
+		i++;
+	if(str[i] && str[i] == '.')
+		i++;
+	else
+		return(false);
+	while (str[i] && isdigit(str[i]))
+		i++;
+	if(str[i] && str[str.length() - 1] == 'f' && isdigit(str[i - 1]))
+		return (true);
+	else
+		return (false);
 	
 }
 
 bool ft_is_double(std::string str)
 {
-	
-}
+	int i = 0;
 
+	while (str[i]&& (str[i] == '+' || str[i] == '-')) 
+		i++;
+	while (str[i] && isdigit(str[i]))
+		i++;
+	if(str[i] && str[i] == '.')
+		i++;
+	else
+		return(false);
+	while (str[i])
+	{
+		if(!isdigit(str[i]))
+			return(false);
+		i++;
+	}
+	if(str[str.length() -1] == '.')
+		return (false);
+	return (true);
+}

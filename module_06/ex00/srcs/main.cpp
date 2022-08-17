@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/14 17:24:33 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/14 18:54:34 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/17 11:14:29 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,39 +24,42 @@
 	- Display the result
 */
 
-
 int main(int ac, char **av)
 {
 	if (ac == 2)
 	{
 			int type = -1;
 			std::string str(av[1]);
+			if(convert_special_case(str))
+				return (0);
 			try
 			{
 				type = detect_type(str);
 			}
 			catch(const std::exception& e)
 			{
-				std::cerr << e.what() << '\n';
+				std::cerr << e.what() << std::endl;
 				return (-1);
 			}
 			switch (type)
 			{
-				case 0 :
+				case CHAR :
+					std::cout << "CHAR DETECTED" << std::endl;
 					convert_to_char(str);
-				case 1 :
+					break;
+				case INT :
+					std::cout << "INT DETECTED" << std::endl;
 					convert_to_int(str);
-				case 2 :
+					break;
+				case FLOAT :
+					std::cout << "FLOAT DETECTED" << std::endl;
 					convert_to_float(str);
-				case 3 :
+					break;
+				case DOUBLE :
+					std::cout << "DOUBLE DETECTED" << std::endl;
 					convert_to_double(str);
-				case 4 :
-					convert_non_displayable(str);
 					break;
 			}
-		
-			
-			
 	}
 	else
 		std::cout << "Error : Missing parameter" << std::endl; 

@@ -1,4 +1,4 @@
-NAME = coffeemaker
+NAME = convert
 
 ################################################################################
 #                           COMPILATION SETTING                        	       #
@@ -14,12 +14,8 @@ SILENT	= --no-print-directory
 ################################################################################
 
 SRCS =	main.cpp \
-		Bureaucrat.cpp \
-		Form.cpp \
-		ShrubberyCreationForm.cpp \
-		PresidentialPardonForm.cpp \
-		RobotomyRequestForm.cpp \
-		Intern.cpp
+		DetectType.cpp \
+		ConvertType.cpp
 		
 ################################################################################
 #                               INCLUDES                             	       #
