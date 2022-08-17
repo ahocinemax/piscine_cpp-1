@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/14 17:24:33 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/17 11:49:01 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/17 11:53:34 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,6 +58,6 @@ int main(int ac, char **av)
 			}
 	}
 	else
-		std::cout << "Error : Missing parameter" << std::endl; 
+		std::cout << "Error : wrong number of arguments" << std::endl; 
 	return (0);
 }
