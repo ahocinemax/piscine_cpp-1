@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/08 15:34:03 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/10 10:53:32 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/17 16:51:55 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,6 +47,9 @@ RobotomyRequestForm::~RobotomyRequestForm()
 
 void RobotomyRequestForm::execute(Bureaucrat const & executor) const
 {
+	time_t t;
+	
+	srand((unsigned) time(&t));
 	if (!this->checkExecRequirement(executor, *this))
 		throw ;
 	std::cout << executor.getName() << " execute " << this->getName() << std::endl;

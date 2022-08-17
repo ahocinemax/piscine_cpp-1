@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/01 14:53:54 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/02 16:06:00 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/17 16:57:27 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,19 @@ ScavTrap& ScavTrap::operator=(const ScavTrap& rhs)
 ScavTrap ::~ScavTrap()
 {
 	std::cout << _name << " : ScavTrap Constructor Called" << std::endl;
+}
+
+void ScavTrap::attack(const std::string& target)
+{
+	if (_hit_point > 0 && _energy_point > 0)
+	{
+		std::cout <<  "ScavTrap " << _name << " attacks " << target<< ", causing " << _attack_damage << " points of damage!" << std::endl;
+		_energy_point--;
+	}
+	else if (_hit_point <= 0)
+		std::cout <<  "ScavTrap " << _name << " is dead" << std::endl;
+	else if ( _energy_point <= 0)
+		std::cout <<  "ScavTrap " << _name << " don't have enought energy point to attack" << std::endl;
 }
 
 void ScavTrap::guardGate()

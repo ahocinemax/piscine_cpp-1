@@ -5,7 +5,7 @@ NAME = scavtrap
 ################################################################################
 
 CC		= c++
-CFLAGS	= -Wall -Wextra -Werror-MD -std=c++98
+CFLAGS	= -Wall -Wextra -Werror -MD -std=c++98
 LDFLAGS	= -Wall -Wextra -Werror -std=c++98
 SILENT	= --no-print-directory
 
