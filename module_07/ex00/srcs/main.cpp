@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/18 11:31:47 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/18 11:57:23 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/18 12:00:45 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,19 @@
 
 int main()
 {
-	int a, b;
+	int a = 2;
+	int b = 3;
+	::swap( a, b );
+	std::cout << "a = " << a << ", b = " << b << std::endl;
+	std::cout << "min( a, b ) = " << ::min( a, b ) << std::endl;
+	std::cout << "max( a, b ) = " << ::max( a, b ) << std::endl;
+	std::string c = "chaine1";
+	std::string d = "chaine2";
+	::swap(c, d);
+	std::cout << "c = " << c << ", d = " << d << std::endl;
+	std::cout << "min( c, d ) = " << ::min( c, d ) << std::endl;
+	std::cout << "max( c, d ) = " << ::max( c, d ) << std::endl;
+	
 
 	a = 15; 
 	b = 16;
@@ -32,20 +44,20 @@ int main()
 	std::cout << "A = " << a << std::endl;
 	std::cout << "B = " << b << std::endl;
 
-	char c, d;
+	char e, f;
 
-	c = 'z'; 
-	d = 'a';
+	e = 'z'; 
+	f = 'a';
 
 	std::cout << "---------------Before swaping---------------" << std::endl;
-	std::cout << "C = " << c << std::endl;
-	std::cout << "D = " << d << std::endl;
-	std::cout << "Minium = " << min<char>(c, d) << std::endl;
-	std::cout << "Maximum = " << max<char>(c, d) << std::endl;
-	swap<char>(c, d);
+	std::cout << "E = " << e << std::endl;
+	std::cout << "F = " << f << std::endl;
+	std::cout << "Minium = " << min<char>(e, f) << std::endl;
+	std::cout << "Maximum = " << max<char>(e, f) << std::endl;
+	swap<char>(e, f);
 	std::cout << "---------------After swaping---------------" << std::endl;
-	std::cout << "C = " << c << std::endl;
-	std::cout << "D = " << d << std::endl;
+	std::cout << "E = " << c << std::endl;
+	std::cout << "F = " << d << std::endl;
 
 
 	return (0);
