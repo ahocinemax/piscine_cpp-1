@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/nicolas/Documents/github/piscine_cpp/module_07/ex01'
+make compilation --no-print-directory
+make template_test --no-print-directory
+make completed --no-print-directory
+make: Leaving directory '/home/nicolas/Documents/github/piscine_cpp/module_07/ex01'
+ 
