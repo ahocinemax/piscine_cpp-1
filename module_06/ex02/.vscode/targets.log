@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Aug 19 13:50:16 2022
+# Make data base, printed on Fri Aug 19 15:41:25 2022
 
 # Variables
 
@@ -107,7 +107,7 @@ SNAP_REEXEC =
 # environment
 ZSH = /home/nicolas/.oh-my-zsh
 # environment
-VSCODE_PID = 17389
+VSCODE_PID = 26875
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -392,7 +392,7 @@ includes/Base.hpp:
 # Not a target:
 objs/C.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-17 16:39:56.102944755
+#  Last modified 2022-08-19 15:39:09.609814239
 #  File has been updated.
 #  Successfully updated.
 
@@ -429,7 +429,7 @@ objs/C.d:
 # Not a target:
 objs/B.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-17 16:38:34.616588892
+#  Last modified 2022-08-19 15:39:09.465734462
 #  File has been updated.
 #  Successfully updated.
 
@@ -544,7 +544,7 @@ objs/B.d:
 # Not a target:
 objs/main.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-17 16:40:08.451301758
+#  Last modified 2022-08-19 15:40:14.162050823
 #  File has been updated.
 #  Successfully updated.
 
@@ -558,7 +558,6 @@ objs/main.d:
 /usr/include/c++/11/bits/stl_construct.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
- 
 #  File has not been updated.
 
 # Not a target:
@@ -570,7 +569,8 @@ objs/main.d:
 # Not a target:
 objs/A.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-17 16:40:08.547304534
+ 
+#  Last modified 2022-08-19 15:39:09.333661333
 #  File has been updated.
 #  Successfully updated.
 
@@ -595,7 +595,7 @@ objs/A.d:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-17 16:26:47.280138981
+#  Last modified 2022-08-19 15:40:06.280808332
 #  File has been updated.
 #  Successfully updated.
 
@@ -622,7 +622,7 @@ clean_exec:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 105):
+#  recipe to execute (from 'Makefile', line 108):
 	@echo "$(NAME) Cleaning executable..."
 
 # Not a target:
@@ -751,7 +751,7 @@ clean: clean_files
 # Not a target:
 objs/Base.d:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-17 16:38:34.428583457
+#  Last modified 2022-08-19 15:39:09.201588205
 #  File has been updated.
 #  Successfully updated.
 
@@ -828,8 +828,7 @@ linking:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 99):
- 
+#  recipe to execute (from 'Makefile', line 102):
 	@echo "$(NAME) Linking in progress..."
 
 # Not a target:
@@ -870,6 +869,7 @@ linking:
 
 # Not a target:
 includes/A.hpp:
+ 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -1098,7 +1098,6 @@ vtest:
 #  Modification time never checked.
 #  File has not been updated.
 
- 
 # Not a target:
 srcs/Base.cpp:
 #  Implicit rule search has not been done.
@@ -1127,7 +1126,7 @@ clean_files:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 102):
+#  recipe to execute (from 'Makefile', line 105):
 	@echo "$(NAME) Cleaning files..."
 
 completed:
@@ -1135,7 +1134,7 @@ completed:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 94):
+#  recipe to execute (from 'Makefile', line 97):
 	@echo "$(GREEN)"
 	@echo "$(NAME) -- Compilation complete !"
 	@echo "$(NO_COLOR)"
@@ -1151,6 +1150,14 @@ completed:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+ 
+
+test: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 83):
+	./$(NAME)
 
 # Not a target:
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
@@ -1372,7 +1379,6 @@ objs/A.o: srcs/A.cpp /usr/include/stdc-predef.h includes/A.hpp includes/Base.hpp
 /usr/include/stdlib.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
- 
 #  File has not been updated.
 
 .PHONY: all clean fclean re compilation completed linking clean_files clean_exec test_right test_wrong vtest
@@ -1391,7 +1397,7 @@ compilation:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 91):
+#  recipe to execute (from 'Makefile', line 94):
 	@echo "$(NAME) Compilation in progress..."
 
 # Not a target:
@@ -1431,6 +1437,7 @@ compilation:
 #  File has not been updated.
 
 # Not a target:
+ 
 /usr/include/c++/11/ios:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -1455,19 +1462,19 @@ compilation:
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=182/1024=18%, Rehash=0, Collisions=96/914=11%
+# Load=183/1024=18%, Rehash=0, Collisions=96/916=10%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 192 / storage = 6609 B / avg = 34 B
-# current buf: size = 8162 B / used = 6609 B / count = 192 / avg = 34 B
+# strcache buffers: 1 (0) / strings = 193 / storage = 6614 B / avg = 34 B
+# current buf: size = 8162 B / used = 6614 B / count = 193 / avg = 34 B
 
-# strcache performance: lookups = 768 / hit rate = 75%
+# strcache performance: lookups = 771 / hit rate = 74%
 # hash-table stats:
-# Load=192/8192=2%, Rehash=0, Collisions=1/768=0%
-# Finished Make data base on Fri Aug 19 13:50:16 2022
+# Load=193/8192=2%, Rehash=0, Collisions=1/771=0%
+# Finished Make data base on Fri Aug 19 15:41:25 2022
 
  

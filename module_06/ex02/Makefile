@@ -79,6 +79,12 @@ fclean : clean clean_exec
 re : fclean 
 	@make all $(SILENT)
 
+test : all
+	./$(NAME)
+
+vtest : all
+	valgrind ./$(NAME)
+
 .PHONY : all clean fclean re compilation completed linking clean_files clean_exec test_right test_wrong vtest
 
 -include $(DEPENDS)

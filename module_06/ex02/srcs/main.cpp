@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/17 15:56:59 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/19 15:34:27 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/19 15:39:33 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,16 +26,19 @@ Base *generate(void)
 	if(nbr <= 33)
 	{
 		A *p = new A();
+		std::cout << "A Class generated" << std::endl;
 		return(static_cast<Base *>(p));
 	}
 	if(nbr > 33 && nbr <= 66)
 	{
 		B *p = new B();
+		std::cout << "B Class generated" << std::endl;
 		return(static_cast<Base *>(p));
 	}
 	if(nbr > 66)
 	{
 		C *p = new C();
+		std::cout << "C Class generated" << std::endl;
 		return(static_cast<Base *>(p));
 	}
 	else return(NULL);
@@ -100,10 +103,11 @@ int main()
 {
 	Base* ptrbase = generate();
 	
-	
+	std::cout << "------------Try with pointer----------" << std::endl;
 	identify(ptrbase);
+	std::cout << "------------Try with reference----------" << std::endl;
 	identify(*ptrbase);
-
+	std::cout << "------------Try with NULL----------" << std::endl;
 	identify(NULL);
 	
 	delete ptrbase;
