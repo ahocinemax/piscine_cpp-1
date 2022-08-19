@@ -5,7 +5,7 @@ NAME = I_dont_want_to_set_the_world_on_fire
 ################################################################################
 
 CC		= c++
-CFLAGS	= -Wall -Wextra -MD -std=c++98 -g3 -fsanitize=address
+CFLAGS	= -Wall -Wextra -Werror -MD -std=c++98 -g3 -fsanitize=address
 LDFLAGS	= -Wall -Wextra -Werror -std=c++98 -g3 -fsanitize=address
 SILENT	= --no-print-directory
 

@@ -1,12 +1,12 @@
-NAME = interface
+NAME = template_test
 
 ################################################################################
 #                           COMPILATION SETTING                        	       #
 ################################################################################
 
-CC		= c++
-CFLAGS	= -Wall -Wextra -Werror -MD -std=c++98 -g3 -fsanitize=address
-LDFLAGS	= -Wall -Wextra -Werror -std=c++98 -g3 -fsanitize=address
+CC	= c++
+CFLAGS	= -Wall -Wextra -Werror -MD -std=c++98
+LDFLAGS	= -Wall -Wextra -Werror -std=c++98
 SILENT	= --no-print-directory
 
 ################################################################################
@@ -14,12 +14,7 @@ SILENT	= --no-print-directory
 ################################################################################
 
 SRCS =	main.cpp \
-		AMateria.cpp \
-		Character.cpp \
-		Cure.cpp \
-		Ice.cpp \
-		MateriaSource.cpp
-				
+		
 ################################################################################
 #                               INCLUDES                             	       #
 ################################################################################
@@ -79,10 +74,6 @@ fclean : clean clean_exec
 
 re : fclean 
 	@make all $(SILENT)
-
-
-vtest : all
-	valgrind --leak-check=full ./$(NAME)
 
 .PHONY : all clean fclean re compilation completed linking clean_files clean_exec test_right test_wrong vtest
 

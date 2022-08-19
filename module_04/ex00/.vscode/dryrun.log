@@ -1,7 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/mnt/nfs/homes/nburat-d/Documents/piscine_cpp/module_04/ex00'
-make compilation --no-print-directory
-make polymorphism --no-print-directory
-make completed --no-print-directory
-make: Leaving directory '/mnt/nfs/homes/nburat-d/Documents/piscine_cpp/module_04/ex00'
- 

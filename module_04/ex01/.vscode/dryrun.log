@@ -1,7 +1,0 @@
-make --dry-run --keep-going --print-directory
-make: Entering directory '/home/nicolas/Documents/github/piscine_cpp/module_04/ex01'
-make compilation --no-print-directory
-make I_dont_want_to_set_the_world_on_fire --no-print-directory
-make completed --no-print-directory
-make: Leaving directory '/home/nicolas/Documents/github/piscine_cpp/module_04/ex01'
- 

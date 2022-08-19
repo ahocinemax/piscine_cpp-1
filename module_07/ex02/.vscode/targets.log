@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Aug  6 14:55:27 2022
+# Make data base, printed on Fri Aug 19 09:36:05 2022
 
 # Variables
 
@@ -20,14 +20,14 @@ GNOME_SHELL_SESSION_MODE = ubuntu
 SSH_AGENT_LAUNCHER = gnome-keyring
 # environment
 SNAP_INSTANCE_KEY = 
-# makefile (from 'Makefile', line 35)
+# makefile (from 'Makefile', line 30)
 SRC_PATH = ./srcs/
 # environment
 LC_NAME = fr_FR.UTF-8
 # environment
 LC_NUMERIC = fr_FR.UTF-8
 # environment
-VSCODE_CWD = /home/nicolas/Documents/github/piscine_cpp/module_04/ex03
+VSCODE_CWD = /home/nicolas/Documents/github/piscine_cpp/module_07/ex02
 # environment
 LC_ADDRESS = fr_FR.UTF-8
 # default
@@ -39,13 +39,13 @@ QT_ACCESSIBILITY = 1
 # environment
 SNAP_INSTANCE_NAME = code
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/103/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/105/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
 # environment
-PWD = /home/nicolas/Documents/github/piscine_cpp/module_04/ex03
+PWD = /home/nicolas/Documents/github/piscine_cpp/module_07/ex02
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
@@ -53,37 +53,37 @@ LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
 XDG_DATA_DIRS = /home/nicolas/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
-OLDPWD = /home/nicolas/Documents/github/piscine_cpp/module_04
+OLDPWD = /home/nicolas/Documents/github/piscine_cpp/module_07
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/nicolas/.config/Code/CachedData/da76f93349a72022ca4670c1b84860304616aaa2
+VSCODE_CODE_CACHE_PATH = /home/nicolas/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.TP6WP1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.BGXOQ1
 # default
 .LOADED := 
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
 # environment
-GNOME_TERMINAL_SERVICE = :1.111
+GNOME_TERMINAL_SERVICE = :1.120
 # makefile
 MAKEFLAGS = pqrR
-# makefile (from 'Makefile', line 53)
+# makefile (from 'Makefile', line 48)
 NO_COLOR = \033[m
-# makefile (from 'Makefile', line 50)
+# makefile (from 'Makefile', line 45)
 BLUE = \033[0;34m
 # makefile
-CURDIR := /home/nicolas/Documents/github/piscine_cpp/module_04/ex03
-# makefile (from 'Makefile', line 44)
+CURDIR := /home/nicolas/Documents/github/piscine_cpp/module_07/ex02
+# makefile (from 'Makefile', line 39)
 DEPENDS = $(addprefix $(OBJ_PATH), ${SRCS:.cpp=.d})
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # makefile (from 'Makefile', line 16)
-SRCS = main.cpp AMateria.cpp Character.cpp Cure.cpp Ice.cpp MateriaSource.cpp
+SRCS = main.cpp 
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -107,13 +107,13 @@ SNAP_REEXEC =
 # environment
 ZSH = /home/nicolas/.oh-my-zsh
 # environment
-VSCODE_PID = 4178
+VSCODE_PID = 4818
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/nicolas-XPS-15-9500:@/tmp/.ICE-unix/2272,unix/nicolas-XPS-15-9500:/tmp/.ICE-unix/2272
+SESSION_MANAGER = local/nicolas-XPS-15-9500:@/tmp/.ICE-unix/2571,unix/nicolas-XPS-15-9500:/tmp/.ICE-unix/2571
 # automatic
 *F = $(notdir $*)
 # environment
@@ -126,7 +126,7 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
-# makefile (from 'Makefile', line 43)
+# makefile (from 'Makefile', line 38)
 OBJS = $(addprefix $(OBJ_PATH), ${SRCS:.cpp=.o})
 # environment
 GNOME_DESKTOP_SESSION_ID = this-is-deprecated
@@ -139,7 +139,7 @@ XMODIFIERS = @im=ibus
 # environment
 SHLVL = 1
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/617d907f_2ef8_4700_a9de_494da724c793
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/4787d984_6236_47c8_913a_32c0eb83f441
 # environment
 MAKELEVEL := 0
 # default
@@ -148,7 +148,7 @@ MAKE = $(MAKE_COMMAND)
 SNAP_COOKIE = CEZt7BCZrKMVXecjmrxbDPMiQffLKbiX-_bOEGc96lgjms7V65r5
 # environment
 PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
-# makefile (from 'Makefile', line 36)
+# makefile (from 'Makefile', line 31)
 OBJ_PATH = ./objs/
 # default
 MAKEFILES := 
@@ -161,14 +161,14 @@ SNAP_USER_COMMON = /home/nicolas/snap/code/common
 # environment
 LC_TIME = fr_FR.UTF-8
 # environment
-SNAP = /snap/code/103
+SNAP = /snap/code/105
 # environment
-SNAP_REVISION = 103
+SNAP_REVISION = 105
 # environment
 SNAP_REAL_HOME = /home/nicolas
 # environment
 USERNAME = nicolas
-# makefile (from 'Makefile', line 52)
+# makefile (from 'Makefile', line 47)
 GREEN = \033[0;32m
 # environment
 GNOME_SETUP_DISPLAY = :1
@@ -176,10 +176,10 @@ GNOME_SETUP_DISPLAY = :1
 LC_TELEPHONE = fr_FR.UTF-8
 # automatic
 ?F = $(notdir $?)
-# makefile (from 'Makefile', line 27)
+# makefile (from 'Makefile', line 22)
 INC = -I ./includes/ 
 # makefile (from 'Makefile', line 1)
-NAME = interface
+NAME = template_test
 # environment
 XDG_CURRENT_DESKTOP = Unity
 # environment
@@ -201,8 +201,8 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := all
 # environment
-SYSTEMD_EXEC_PID = 2646
-# makefile (from 'Makefile', line 51)
+SYSTEMD_EXEC_PID = 2727
+# makefile (from 'Makefile', line 46)
 RED = \033[0;31m
 # environment
 DISPLAY = :0
@@ -215,11 +215,11 @@ MAKE_VERSION := 4.3
 # environment
 DISABLE_WAYLAND = 1
 # environment
-SNAP_DATA = /var/snap/code/103
+SNAP_DATA = /var/snap/code/105
 # environment
 SNAP_CONTEXT = CEZt7BCZrKMVXecjmrxbDPMiQffLKbiX-_bOEGc96lgjms7V65r5
 # makefile (from 'Makefile', line 9)
-LDFLAGS = -Wall -Wextra -Werror -std=c++98 -g3 -fsanitize=address
+LDFLAGS = -Wall -Wextra -Werror -std=c++98
 # environment
 LC_MEASUREMENT = fr_FR.UTF-8
 # environment
@@ -229,7 +229,7 @@ LC_PAPER = fr_FR.UTF-8
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # makefile (from 'Makefile', line 8)
-CFLAGS = -Wall -Wextra -MD -std=c++98 -g3 -fsanitize=address
+CFLAGS = -Wall -Wextra -Werror -MD -std=c++98
 # environment
 COLORTERM = truecolor
 # environment
@@ -245,19 +245,19 @@ QT_IM_MODULE = ibus
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-0ed59228-1.70.0-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-0ed59228-1.70.2-main.sock
 # environment
 TERM = xterm-256color
 # environment
 SNAP_NAME = code
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/103/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/105/usr/share/glib-2.0/schemas
 # default
 .RECIPEPREFIX := 
 # automatic
 <F = $(notdir $<)
 # environment
-SNAP_VERSION = da76f933
+SNAP_VERSION = e4503b30
 # default
 SUFFIXES := 
 # makefile (from 'Makefile', line 10)
@@ -266,7 +266,7 @@ SILENT = --no-print-directory
 VSCODE_CLI = 1
 # environment
 ELECTRON_NO_ATTACH_CONSOLE = 1
-# makefile (from 'Makefile', line 29)
+# makefile (from 'Makefile', line 24)
 LIBINC = 
 # environment
 VTE_VERSION = 6800
@@ -277,7 +277,7 @@ SNAP_COMMON = /var/snap/code/common
 # makefile (from 'Makefile', line 7)
 CC = c++
 # environment
-SNAP_USER_DATA = /home/nicolas/snap/code/103
+SNAP_USER_DATA = /home/nicolas/snap/code/105
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
@@ -288,54 +288,28 @@ LC_IDENTIFICATION = fr_FR.UTF-8
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
 # Load=138/1024=13%, Rehash=0, Collisions=22/184=12%
+ 
 
 # Pattern-specific Variable Values
 
 # No pattern-specific variable values.
 
 # Directories
- 
 
-# . (device 66309, inode 5249539): 6 files, no impossibilities.
-# srcs (device 66309, inode 5249541): No files, no impossibilities so far.
+# . (device 66309, inode 6947486): 6 files, no impossibilities.
+# srcs (device 66309, inode 6947489): No files, no impossibilities so far.
 
 # 6 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
 objs/%.o: srcs/%.cpp
-#  recipe to execute (from 'Makefile', line 69):
+#  recipe to execute (from 'Makefile', line 64):
 	@mkdir -p $(dir $@)
 	@$(CC)  $(CFLAGS) $(LIBINC) -c -o $@ $<  $(INC)
 
 # 1 implicit rules, 0 (0.0%) terminal.
 # Files
-
-# Not a target:
-objs/Ice.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-objs/Character.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-objs/AMateria.d:
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has been updated.
-#  Failed to be updated.
-
-# Not a target:
-objs/Ice.d:
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has been updated.
-#  Failed to be updated.
 
 # Not a target:
 objs/main.d:
@@ -345,16 +319,9 @@ objs/main.d:
 #  Failed to be updated.
 
 # Not a target:
-objs/Cure.d:
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has been updated.
-#  Failed to be updated.
-
-# Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-05 16:57:18.172110563
+#  Last modified 2022-08-18 14:32:11.221102476
 #  File has been updated.
 #  Successfully updated.
 
@@ -363,15 +330,23 @@ clean_exec:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 115):
+#  recipe to execute (from 'Makefile', line 101):
 	@echo "$(NAME) Cleaning executable..."
+
+template_test: linking objs/main.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 60):
+	@$(CC) $(LDFLAGS) $(LIBINC) -o $@ $(OBJS) $(INC) 
+	
 
 clean: clean_files
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 73):
+#  recipe to execute (from 'Makefile', line 68):
 	@rm -f $(OBJS)
 	@rm -f $(OBJ_PATH)$(DEPENDS)
 	@rm -rf $(OBJ_PATH)
@@ -381,7 +356,7 @@ re: fclean
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 81):
+#  recipe to execute (from 'Makefile', line 76):
 	@make all $(SILENT)
 
 linking:
@@ -389,7 +364,7 @@ linking:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 109):
+#  recipe to execute (from 'Makefile', line 95):
 	@echo "$(NAME) Linking in progress..."
 
 # Not a target:
@@ -404,18 +379,10 @@ objs/main.o:
 #  Modification time never checked.
 #  File has not been updated.
 
-test_wrong: all
+test_wrong:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 87):
-	./$(NAME) maps/testwrong.cub
-
-# Not a target:
-objs/AMateria.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
 #  File has not been updated.
 
 all:
@@ -444,7 +411,7 @@ all:
 # | := 
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=1/15=7%
-#  recipe to execute (from 'Makefile', line 60):
+#  recipe to execute (from 'Makefile', line 55):
 	@make compilation $(SILENT)
 	@make $(NAME) $(SILENT)
 	@make completed $(SILENT)
@@ -454,30 +421,21 @@ fclean: clean clean_exec
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 78):
+#  recipe to execute (from 'Makefile', line 73):
 	@rm -f $(NAME)
 
-vtest: all
+vtest:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 90):
-	valgrind --leak-check=full ./$(NAME) maps/test.cub
-
-# Not a target:
-objs/MateriaSource.d:
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has been updated.
-#  Failed to be updated.
 
 clean_files:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 112):
+#  recipe to execute (from 'Makefile', line 98):
 	@echo "$(NAME) Cleaning files..."
 
 completed:
@@ -485,40 +443,19 @@ completed:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 104):
+#  recipe to execute (from 'Makefile', line 90):
 	@echo "$(GREEN)"
 	@echo "$(NAME) -- Compilation complete !"
 	@echo "$(NO_COLOR)"
 
-# Not a target:
-objs/Cure.o:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-test_right: all
+test_right:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 84):
-	./$(NAME) maps/test.cub
-
-# Not a target:
-objs/Character.d:
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has been updated.
-#  Failed to be updated.
 
 # Not a target:
 .SUFFIXES:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-objs/MateriaSource.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -533,31 +470,23 @@ compilation:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 101):
+#  recipe to execute (from 'Makefile', line 87):
 	@echo "$(NAME) Compilation in progress..."
 
-interface: linking objs/main.o objs/AMateria.o objs/Character.o objs/Cure.o objs/Ice.o objs/MateriaSource.o
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 65):
-	@$(CC) $(LDFLAGS) $(LIBINC) -o $@ $(OBJS) $(INC) 
-	
-
 # files hash-table stats:
-# Load=29/1024=3%, Rehash=0, Collisions=0/78=0%
+# Load=19/1024=2%, Rehash=0, Collisions=0/55=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 38 / storage = 403 B / avg = 10 B
-# current buf: size = 8162 B / used = 403 B / count = 38 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 28 / storage = 253 B / avg = 9 B
+# current buf: size = 8162 B / used = 253 B / count = 28 / avg = 9 B
 
-# strcache performance: lookups = 85 / hit rate = 55%
+# strcache performance: lookups = 61 / hit rate = 54%
 # hash-table stats:
-# Load=38/8192=0%, Rehash=0, Collisions=0/85=0%
-# Finished Make data base on Sat Aug  6 14:55:28 2022
+# Load=28/8192=0%, Rehash=0, Collisions=0/61=0%
+# Finished Make data base on Fri Aug 19 09:36:05 2022
 
  
