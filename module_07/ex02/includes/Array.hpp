@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/19 09:58:30 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/19 13:10:47 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/19 16:04:49 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,15 +15,15 @@
 
 # include <exception>
 # include <iostream>
-
+# include <string.h>
 
 template <typename T>
 class Array
 {
 	private :
-		T *_array;
+		T	*_array;
 		int	_size;
-
+		
 	public :
 		Array(); 
 		Array(unsigned int n);

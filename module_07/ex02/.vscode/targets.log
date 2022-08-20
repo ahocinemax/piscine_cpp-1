@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Aug 19 09:48:30 2022
+# Make data base, printed on Fri Aug 19 15:45:52 2022
 
 # Variables
 
@@ -14,8 +14,6 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 GDK_BACKEND = x11
 # environment
 LC_ALL = C
-# environment
-NO_AT_BRIDGE = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
@@ -83,7 +81,7 @@ CURDIR := /home/nicolas/Documents/github/piscine_cpp/module_07/ex02
 # makefile (from 'Makefile', line 39)
 DEPENDS = $(addprefix $(OBJ_PATH), ${SRCS:.cpp=.d})
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # makefile (from 'Makefile', line 16)
 SRCS = main.cpp 
 # automatic
@@ -109,7 +107,7 @@ SNAP_REEXEC =
 # environment
 ZSH = /home/nicolas/.oh-my-zsh
 # environment
-VSCODE_PID = 5879
+VSCODE_PID = 28063
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -134,7 +132,6 @@ OBJS = $(addprefix $(OBJ_PATH), ${SRCS:.cpp=.o})
 GNOME_DESKTOP_SESSION_ID = this-is-deprecated
 # makefile
 SHELL = /bin/sh
- 
 # default
 MAKECMDGOALS := all
 # environment
@@ -290,9 +287,10 @@ LC_IDENTIFICATION = fr_FR.UTF-8
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
-# Load=139/1024=14%, Rehash=0, Collisions=22/185=12%
+# Load=138/1024=13%, Rehash=0, Collisions=22/184=12%
 
 # Pattern-specific Variable Values
+ 
 
 # No pattern-specific variable values.
 
@@ -399,7 +397,6 @@ all:
 # @ := all
 # automatic
 # * := 
- 
 # automatic
 # < := 
 # automatic
@@ -490,6 +487,6 @@ compilation:
 # strcache performance: lookups = 61 / hit rate = 54%
 # hash-table stats:
 # Load=28/8192=0%, Rehash=0, Collisions=0/61=0%
-# Finished Make data base on Fri Aug 19 09:48:30 2022
+# Finished Make data base on Fri Aug 19 15:45:52 2022
 
  

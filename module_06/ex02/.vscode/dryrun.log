@@ -1,4 +1,4 @@
-make --dry-run --always-make --keep-going --print-directory
+make --dry-run --keep-going --print-directory
 make: Entering directory '/home/nicolas/Documents/github/piscine_cpp/module_06/ex02'
 make compilation --no-print-directory
 make identify_real_type --no-print-directory

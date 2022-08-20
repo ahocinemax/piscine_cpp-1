@@ -1,7 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/nicolas/Documents/github/piscine_cpp/module_05/ex03'
-make compilation --no-print-directory
-make coffeemaker --no-print-directory
-make completed --no-print-directory
-make: Leaving directory '/home/nicolas/Documents/github/piscine_cpp/module_05/ex03'
- 

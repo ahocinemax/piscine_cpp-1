@@ -74,6 +74,7 @@ clean : clean_files
 	@rm -f $(OBJS)
 	@rm -f $(OBJ_PATH)$(DEPENDS)
 	@rm -rf $(OBJ_PATH)
+	@rm home_shrubbery
 
 fclean : clean clean_exec
 	@rm -f $(NAME)
