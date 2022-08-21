@@ -5,8 +5,8 @@ NAME = template_test
 ################################################################################
 
 CC	= c++
-CFLAGS	= -Wall -Wextra -Werror -MD -std=c++98
-LDFLAGS	= -Wall -Wextra -Werror -std=c++98
+CFLAGS	= -Wall -Wextra -Werror -MD -std=c++98 -g3
+LDFLAGS	= -Wall -Wextra -Werror -std=c++98 -g3
 SILENT	= --no-print-directory
 
 ################################################################################
@@ -74,6 +74,12 @@ fclean : clean clean_exec
 
 re : fclean 
 	@make all $(SILENT)
+
+test : all
+	./$(NAME)
+
+vtest : all
+	valgrind --leak-check=full ./$(NAME)
 
 .PHONY : all clean fclean re compilation completed linking clean_files clean_exec test_right test_wrong vtest
 
