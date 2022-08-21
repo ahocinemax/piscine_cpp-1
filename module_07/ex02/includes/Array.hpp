@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/19 09:58:30 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/21 10:44:38 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/21 10:51:09 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,9 +56,9 @@ template <typename T> Array<T>::Array(unsigned int n)
 		for(unsigned int i = 0; i < n; i++)
 		{
 			_array[i] = 0;
-		}
-		_size = n;
+		}	
 	}
+	_size = n;
 	std::cout << "Array constructor called" << std::endl;
 }
 
