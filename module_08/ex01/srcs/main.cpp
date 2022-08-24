@@ -5,25 +5,34 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/08/24 09:57:34 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/24 10:19:54 by nburat-d         ###   ########.fr       */
+/*   Created: 2022/08/24 22:06:10 by nburat-d          #+#    #+#             */
+/*   Updated: 2022/08/24 23:00:54 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "easyfind.hpp"
-#include <vector>
-#include <array>
+#include <Span.hpp>
 
 int main()
 {
-	std::vector<int> vec (1);
-	vec.push_back(6);
-	vec.push_back(9);
-	vec.push_back(2);
+	Span sp = Span(5);
+	
+	sp.addNumber(6);
+	sp.addNumber(3);
+	sp.addNumber(17);
+	sp.addNumber(9);
+	sp.addNumber(11);
+	
 	try
 	{
-		std::vector<int>::iterator it = Easyfind(vec, 2);
-		std::cout << "the number " << *it << " was found" << std::endl;
+		std::cout << sp.shortestSpan() << std::endl;
+	}
+	catch(const std::exception& e)
+	{
+		std::cerr << e.what() << '\n';
+	}
+	try
+	{
+		std::cout << sp.longestSpan() << std::endl;
 	}
 	catch(const std::exception& e)
 	{
@@ -32,14 +41,11 @@ int main()
 	
 	try
 	{
-		std::vector<int>::iterator it = Easyfind(vec, 10);
-		std::cout << "the number " << *it << " was found" << std::endl;
+		sp.addNumber(42);
 	}
 	catch(const std::exception& e)
 	{
 		std::cerr << e.what() << '\n';
 	}
-	std::array<int> arr (1, 2, 3, 4);
-	
-	return (0);
+	return 0;
 }
