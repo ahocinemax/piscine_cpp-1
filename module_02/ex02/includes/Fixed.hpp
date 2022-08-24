@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/28 14:49:52 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/11 19:49:59 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/21 11:09:42 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,8 +42,8 @@ class	Fixed
 		
 		Fixed& operator++();
 		Fixed& operator--();
-		Fixed& operator++(int);
-		Fixed& operator--(int);
+		Fixed operator++(int);
+		Fixed operator--(int);
 		
 		static Fixed & min(const Fixed& fxt1, const Fixed& fxt2);
 		static Fixed & min(Fixed& fxt1, Fixed& fxt2);

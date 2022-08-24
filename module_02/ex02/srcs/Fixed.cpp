@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/28 18:43:21 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/11 19:53:51 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/21 11:11:34 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -109,10 +109,10 @@ Fixed& Fixed::operator++()
 	return *this;
 }
 
-Fixed& Fixed::operator++(int)
+Fixed Fixed::operator++(int)
 {
 	Fixed tmp;
-	Fixed& retour(*this);
+	Fixed retour(*this);
 
 	tmp.setRawBits(1);
 	*this = *this + tmp;
@@ -128,10 +128,10 @@ Fixed& Fixed::operator--()
 	return *this;
 }
 
-Fixed& Fixed::operator--(int)
+Fixed Fixed::operator--(int)
 {
 	Fixed tmp;
-	Fixed& retour(*this);
+	Fixed retour(*this);
 
 	tmp.setRawBits(1);
 	*this = *this - tmp;
