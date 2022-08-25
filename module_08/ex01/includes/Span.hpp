@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/24 21:05:31 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/24 22:56:31 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/25 12:10:05 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,9 @@ class Span
 		void	addNumber(int nbr);
 		int		shortestSpan();
 		int		longestSpan();
+		void	fillSpan(std::vector<int>::iterator _begin, std::vector<int>::iterator _end);
+		void	printSpan();
+		std::vector<int>& getVector();
 
 	class NOT_ENOUGHT_NUMBER : virtual public std::exception
 	{

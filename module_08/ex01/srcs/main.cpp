@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/24 22:06:10 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/24 23:00:54 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/25 12:12:55 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int main()
 {
-	Span sp = Span(5);
+	Span sp = Span(20);
 	
 	sp.addNumber(6);
 	sp.addNumber(3);
@@ -38,7 +38,6 @@ int main()
 	{
 		std::cerr << e.what() << '\n';
 	}
-	
 	try
 	{
 		sp.addNumber(42);
@@ -47,5 +46,17 @@ int main()
 	{
 		std::cerr << e.what() << '\n';
 	}
+	
+	std::vector<int>::iterator _beg = sp.getVector().begin();
+	std::vector<int>::iterator _end = sp.getVector().end();
+	try
+	{
+		sp.fillSpan(_beg, _end);
+	}
+	catch(const std::exception& e)
+	{
+		std::cerr << e.what() << '\n';
+	}
+	sp.printSpan();	
 	return 0;
 }

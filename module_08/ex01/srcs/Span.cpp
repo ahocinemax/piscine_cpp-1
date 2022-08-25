@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/24 21:10:07 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/24 23:00:11 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/25 12:10:31 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -115,4 +115,23 @@ const char * Span::NOT_ENOUGHT_NUMBER::what() const throw()
 const char * Span::TOO_MUCH_NUMBER::what() const throw()
 {
 	return("Error : Too much number stored, cannot add anymore");
+}
+
+void	Span::fillSpan(std::vector<int>::iterator _begin, std::vector<int>::iterator _end)
+{
+	if(vec.size() + std::distance(_begin, _end) > _maxStorage)
+		throw TOO_MUCH_NUMBER();
+	else
+		vec.insert(_begin, _begin, _end);
+}
+
+void	Span::printSpan()
+{
+	for(std::vector<int>::iterator _start = vec.begin(); _start != vec.end(); _start++)
+		std::cout << *_start << std::endl;
+}
+
+std::vector<int>& Span::getVector()
+{
+	return(vec);
 }
