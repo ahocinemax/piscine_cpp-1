@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Aug 26 00:17:59 2022
+# Make data base, printed on Sun Aug 28 11:21:27 2022
 
 # Variables
 
@@ -21,13 +21,11 @@ SSH_AGENT_LAUNCHER = gnome-keyring
 # makefile (from 'Makefile', line 31)
 SRC_PATH = ./srcs/
 # environment
-GJS_DEBUG_OUTPUT = stderr
-# environment
 LC_NAME = fr_FR.UTF-8
 # environment
 LC_NUMERIC = fr_FR.UTF-8
 # environment
-VSCODE_CWD = /home/nicolas
+VSCODE_CWD = /home/nicolas/Documents/github/piscine_cpp/module_08/ex02
 # environment
 LC_ADDRESS = fr_FR.UTF-8
 # default
@@ -49,7 +47,7 @@ LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
 XDG_DATA_DIRS = /home/nicolas/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
-OLDPWD = /home/nicolas
+OLDPWD = /home/nicolas/Documents/github
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # automatic
@@ -59,11 +57,13 @@ VSCODE_CODE_CACHE_PATH = /home/nicolas/.config/Code/CachedData/e4503b30fc78200f8
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.SWQGR1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.MCLPR1
 # default
 .LOADED := 
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# environment
+GNOME_TERMINAL_SERVICE = :1.132
 # makefile
 MAKEFLAGS = pqrR
 # makefile (from 'Makefile', line 49)
@@ -77,7 +77,7 @@ DEPENDS = $(addprefix $(OBJ_PATH), ${SRCS:.cpp=.d})
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # makefile (from 'Makefile', line 16)
-SRCS = main.cpp Span.cpp
+SRCS = main.cpp 
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -92,20 +92,20 @@ WAYLAND_DISPLAY = wayland-0
 +D = $(patsubst %/,%,$(dir $+))
 # environment
 XDG_SESSION_DESKTOP = ubuntu
-# makefile (from 'Makefile', line 1)
-MAKEFILE_LIST := Makefile
+# makefile (from 'objs/main.d', line 1)
+MAKEFILE_LIST := Makefile objs/main.d
 # automatic
 @F = $(notdir $@)
 # environment
 ZSH = /home/nicolas/.oh-my-zsh
 # environment
-VSCODE_PID = 55009
+VSCODE_PID = 4762
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/nicolas-XPS-15-9500:@/tmp/.ICE-unix/2569,unix/nicolas-XPS-15-9500:/tmp/.ICE-unix/2569
+SESSION_MANAGER = local/nicolas-XPS-15-9500:@/tmp/.ICE-unix/2847,unix/nicolas-XPS-15-9500:/tmp/.ICE-unix/2847
 # automatic
 *F = $(notdir $*)
 # environment
@@ -129,9 +129,9 @@ MAKECMDGOALS := all
 # environment
 XMODIFIERS = @im=ibus
 # environment
-GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+SHLVL = 1
 # environment
-SHLVL = 0
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/5cb50183_4285_4883_aa85_3a5bdc230fcb
 # environment
 MAKELEVEL := 0
 # default
@@ -149,8 +149,6 @@ LC_MONETARY = fr_FR.UTF-8
 # environment
 LC_TIME = fr_FR.UTF-8
 # environment
-INVOCATION_ID = edd038cdbb2743dea8483aa0786852f5
-# environment
 USERNAME = nicolas
 # makefile (from 'Makefile', line 48)
 GREEN = \033[0;32m
@@ -163,11 +161,11 @@ LC_TELEPHONE = fr_FR.UTF-8
 # makefile (from 'Makefile', line 23)
 INC = -I ./includes/ 
 # makefile (from 'Makefile', line 1)
-NAME = span
+NAME = mutant
 # environment
 XDG_CURRENT_DESKTOP = Unity
 # environment
-LS_COLORS = 
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
 # automatic
 +F = $(notdir $+)
 # environment
@@ -180,12 +178,10 @@ ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 GNUMAKEFLAGS := 
 # environment
 LOGNAME = nicolas
-# environment
-GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
 # makefile
 .DEFAULT_GOAL := all
 # environment
-SYSTEMD_EXEC_PID = 2587
+SYSTEMD_EXEC_PID = 3002
 # makefile (from 'Makefile', line 47)
 RED = \033[0;31m
 # environment
@@ -199,15 +195,11 @@ MAKE_VERSION := 4.3
 # makefile (from 'Makefile', line 9)
 LDFLAGS = -Wall -Wextra -Werror -std=c++98 -g3
 # environment
-MANAGERPID = 2443
-# environment
 LC_MEASUREMENT = fr_FR.UTF-8
-# environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 55009
 # environment
 PAGER = less
 # environment
-_ = /usr/share/code/code
+_ = /usr/bin/code
 # environment
 LC_PAPER = fr_FR.UTF-8
 # environment
@@ -215,7 +207,7 @@ XDG_RUNTIME_DIR = /run/user/1000
 # makefile (from 'Makefile', line 8)
 CFLAGS = -Wall -Wextra -Werror -MD -std=c++98 -g3
 # environment
-JOURNAL_STREAM = 8:38967
+COLORTERM = truecolor
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -228,6 +220,8 @@ QT_IM_MODULE = ibus
 ELECTRON_RUN_AS_NODE = 1
 # environment
 VSCODE_IPC_HOOK = /run/user/1000/vscode-0ed59228-1.70.2-main.sock
+# environment
+TERM = xterm-256color
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -236,8 +230,14 @@ VSCODE_IPC_HOOK = /run/user/1000/vscode-0ed59228-1.70.2-main.sock
 SUFFIXES := 
 # makefile (from 'Makefile', line 10)
 SILENT = --no-print-directory
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
 # makefile (from 'Makefile', line 25)
 LIBINC = 
+# environment
+VTE_VERSION = 6800
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # makefile (from 'Makefile', line 7)
@@ -249,7 +249,7 @@ GDMSESSION = ubuntu
 # environment
 LC_IDENTIFICATION = fr_FR.UTF-8
 # variable set hash-table stats:
-# Load=119/1024=12%, Rehash=0, Collisions=6/165=4%
+# Load=119/1024=12%, Rehash=0, Collisions=13/167=8%
 
 # Pattern-specific Variable Values
 
@@ -273,18 +273,301 @@ objs/%.o: srcs/%.cpp
 # Files
 
 # Not a target:
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/ext/alloc_traits.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/basic_string.tcc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/stl_pair.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ 
+/usr/include/c++/11/iosfwd:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/localefwd.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/stl_deque.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/predefined_ops.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/cwctype:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/istream.tcc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/stl_vector.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/streambuf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/exception.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/ext/atomicity.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/concept_check.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/list:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/ext/type_traits.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/ostream_insert.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/list.tcc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/cpp_type_traits.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
 objs/main.d:
 #  Implicit rule search has been done.
-#  File does not exist.
+#  Last modified 2022-08-28 11:21:10.565727534
 #  File has been updated.
-#  Failed to be updated.
+#  Successfully updated.
+
+# Not a target:
+/usr/include/c++/11/bits/locale_classes.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/stl_construct.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/stl_algobase.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/cxxabi_forced.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/locale_facets.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-25 17:30:21.022914563
+#  Last modified 2022-08-28 11:20:55.897355326
 #  File has been updated.
 #  Successfully updated.
+
+# Not a target:
+/usr/include/c++/11/cwchar:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 clean_exec:
 #  Phony target (prerequisite of .PHONY).
@@ -293,7 +576,73 @@ clean_exec:
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 108):
 	@echo "$(NAME) Cleaning executable..."
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/backward/binders.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/wchar.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/allocator.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/pthread.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/features-time64.h:
+#  Implicit rule search has not been done.
  
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/alloc_traits.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/vector.tcc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 clean: clean_files
 #  Phony target (prerequisite of .PHONY).
@@ -306,11 +655,100 @@ clean: clean_files
 	@rm -rf $(OBJ_PATH)
 
 # Not a target:
-objs/Span.d:
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has been updated.
-#  Failed to be updated.
+/usr/include/c++/11/bits/range_access.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/stringfwd.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/debug/assertions.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/time.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/char_traits.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/features.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+includes/MutantStack.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/streambuf_iterator.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 re: fclean
 #  Phony target (prerequisite of .PHONY).
@@ -329,13 +767,138 @@ linking:
 	@echo "$(NAME) Linking in progress..."
 
 # Not a target:
-objs/main.o:
+/usr/include/c++/11/bits/ostream.tcc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/wctype.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/iostream:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/locale_facets.tcc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/ostream:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/vector:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/ext/new_allocator.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/stl_bvector.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/new:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/stl_function.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/ext/numeric_traits.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+objs/main.o: srcs/main.cpp /usr/include/stdc-predef.h includes/MutantStack.hpp /usr/include/c++/11/stack /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_algobase.h /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h /usr/include/features.h /usr/include/features-time64.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/timesize.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h /usr/include/c++/11/bits/functexcept.h /usr/include/c++/11/bits/exception_defines.h /usr/include/c++/11/bits/cpp_type_traits.h /usr/include/c++/11/ext/type_traits.h /usr/include/c++/11/ext/numeric_traits.h /usr/include/c++/11/bits/stl_pair.h /usr/include/c++/11/bits/move.h /usr/include/c++/11/bits/concept_check.h /usr/include/c++/11/bits/stl_iterator_base_types.h /usr/include/c++/11/bits/stl_iterator_base_funcs.h /usr/include/c++/11/debug/assertions.h /usr/include/c++/11/bits/stl_iterator.h /usr/include/c++/11/bits/ptr_traits.h /usr/include/c++/11/debug/debug.h /usr/include/c++/11/bits/predefined_ops.h /usr/include/c++/11/bits/allocator.h /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h /usr/include/c++/11/ext/new_allocator.h /usr/include/c++/11/new /usr/include/c++/11/bits/exception.h /usr/include/c++/11/bits/memoryfwd.h /usr/include/c++/11/bits/stl_construct.h /usr/include/c++/11/bits/stl_uninitialized.h /usr/include/c++/11/ext/alloc_traits.h /usr/include/c++/11/bits/alloc_traits.h /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/range_access.h /usr/include/c++/11/bits/deque.tcc /usr/include/c++/11/bits/stl_stack.h /usr/include/c++/11/iostream /usr/include/c++/11/ostream /usr/include/c++/11/ios /usr/include/c++/11/iosfwd /usr/include/c++/11/bits/stringfwd.h /usr/include/c++/11/bits/postypes.h /usr/include/c++/11/cwchar /usr/include/wchar.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/x86_64-linux-gnu/bits/types/wint_t.h /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/types/locale_t.h /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h /usr/include/c++/11/exception /usr/include/c++/11/bits/char_traits.h /usr/include/c++/11/bits/localefwd.h /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h /usr/include/c++/11/clocale /usr/include/locale.h /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/11/cctype /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/time64.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/endianness.h /usr/include/c++/11/bits/ios_base.h /usr/include/c++/11/ext/atomicity.h /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h /usr/include/pthread.h /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h /usr/include/x86_64-linux-gnu/bits/types/clock_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h /usr/include/x86_64-linux-gnu/bits/struct_mutex.h /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h /usr/include/x86_64-linux-gnu/sys/single_threaded.h /usr/include/c++/11/bits/locale_classes.h /usr/include/c++/11/string /usr/include/c++/11/bits/ostream_insert.h /usr/include/c++/11/bits/cxxabi_forced.h /usr/include/c++/11/bits/stl_function.h /usr/include/c++/11/backward/binders.h /usr/include/c++/11/bits/basic_string.h /usr/include/c++/11/bits/basic_string.tcc /usr/include/c++/11/bits/locale_classes.tcc /usr/include/c++/11/stdexcept /usr/include/c++/11/streambuf /usr/include/c++/11/bits/streambuf.tcc /usr/include/c++/11/bits/basic_ios.h /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h /usr/include/c++/11/bits/streambuf_iterator.h /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h /usr/include/c++/11/bits/locale_facets.tcc /usr/include/c++/11/bits/basic_ios.tcc /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_vector.h /usr/include/c++/11/bits/stl_bvector.h /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h /usr/include/c++/11/bits/list.tcc
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/sched.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/locale.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
 .DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/stl_iterator_base_types.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/clocale:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -380,10 +943,43 @@ all:
 fclean: clean clean_exec
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
+ 
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 74):
 	@rm -f $(NAME)
+
+# Not a target:
+/usr/include/c++/11/bits/functexcept.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+mutant: linking objs/main.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 61):
+	@$(CC) $(LDFLAGS) $(LIBINC) -o $@ $(OBJS) $(INC) 
+	
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/basic_ios.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/stl_iterator.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 vtest: all
 #  Phony target (prerequisite of .PHONY).
@@ -393,13 +989,41 @@ vtest: all
 #  recipe to execute (from 'Makefile', line 83):
 	valgrind --leak-check=full ./$(NAME)
 
-span: linking objs/main.o objs/Span.o
+# Not a target:
+/usr/include/c++/11/debug/debug.h:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 61):
-	@$(CC) $(LDFLAGS) $(LIBINC) -o $@ $(OBJS) $(INC) 
-	
+
+# Not a target:
+/usr/include/stdc-predef.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/string:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/basic_ios.tcc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/istream:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 clean_files:
 #  Phony target (prerequisite of .PHONY).
@@ -419,6 +1043,24 @@ completed:
 	@echo "$(NAME) -- Compilation complete !"
 	@echo "$(NO_COLOR)"
 
+# Not a target:
+/usr/include/c++/11/cctype:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/ios_base.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/stack:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
 test: all
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -426,10 +1068,178 @@ test: all
 #  recipe to execute (from 'Makefile', line 80):
 	./$(NAME)
 
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/time.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/ctype.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/stl_list.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/streambuf.tcc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/stdexcept:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/locale.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/main.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/ptr_traits.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/stl_uninitialized.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/memoryfwd.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/basic_string.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/locale_classes.tcc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
 test_right:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/deque.tcc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/stl_stack.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/deque:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/exception_defines.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
@@ -443,6 +1253,12 @@ test_right:
 #  Modification time never checked.
 #  File has not been updated.
 
+# Not a target:
+/usr/include/c++/11/bits/postypes.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
 compilation:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
@@ -452,25 +1268,68 @@ compilation:
 	@echo "$(NAME) Compilation in progress..."
 
 # Not a target:
-objs/Span.o:
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/bits/move.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/ios:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/usr/include/c++/11/exception:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=22/1024=2%, Rehash=0, Collisions=0/62=0%
+ 
+# Load=165/1024=16%, Rehash=0, Collisions=28/349=8%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 32 / storage = 282 B / avg = 8 B
-# current buf: size = 8162 B / used = 282 B / count = 32 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 175 / storage = 6249 B / avg = 35 B
+# current buf: size = 8162 B / used = 6249 B / count = 175 / avg = 35 B
 
-# strcache performance: lookups = 71 / hit rate = 54%
+# strcache performance: lookups = 215 / hit rate = 18%
 # hash-table stats:
-# Load=32/8192=0%, Rehash=0, Collisions=0/71=0%
-# Finished Make data base on Fri Aug 26 00:17:59 2022
+# Load=175/8192=2%, Rehash=0, Collisions=0/215=0%
+# Finished Make data base on Sun Aug 28 11:21:27 2022
 
  
