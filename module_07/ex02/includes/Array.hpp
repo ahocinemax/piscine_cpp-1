@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/19 09:58:30 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/21 10:51:09 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/30 15:25:18 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ template <typename T>
 class Array
 {
 	private :
-		T	*_array = NULL;
+		T	*_array;
 		unsigned int	_size;
 		
 	public :
@@ -64,6 +64,7 @@ template <typename T> Array<T>::Array(unsigned int n)
 
 template <typename T> Array<T>::Array(const Array<T> & src)
 {
+	_array =  NULL;
 	if(this != &src)
 		*this = src;
 	std::cout << "Array copy constructor called" << std::endl;
