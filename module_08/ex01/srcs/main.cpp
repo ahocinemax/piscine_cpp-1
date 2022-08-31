@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/24 22:06:10 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/25 12:12:55 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/31 11:12:51 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,41 +22,51 @@ int main()
 	sp.addNumber(9);
 	sp.addNumber(11);
 	
-	try
-	{
-		std::cout << sp.shortestSpan() << std::endl;
-	}
-	catch(const std::exception& e)
-	{
-		std::cerr << e.what() << '\n';
-	}
-	try
-	{
-		std::cout << sp.longestSpan() << std::endl;
-	}
-	catch(const std::exception& e)
-	{
-		std::cerr << e.what() << '\n';
-	}
-	try
-	{
-		sp.addNumber(42);
-	}
-	catch(const std::exception& e)
-	{
-		std::cerr << e.what() << '\n';
-	}
-	
 	std::vector<int>::iterator _beg = sp.getVector().begin();
 	std::vector<int>::iterator _end = sp.getVector().end();
+	std::cout <<  "Span content : " << std::endl;
+	sp.printSpan();
 	try
 	{
+		std::cout << std::endl;
+		std::cout << "The shortest span = " << sp.shortestSpan() << std::endl;
+	}
+	catch(const std::exception& e)
+	{
+		std::cerr << e.what() << '\n';
+	}
+	try
+	{
+		std::cout << std::endl;
+		std::cout <<  "The longest span = " << sp.longestSpan() << std::endl;
+	}
+	catch(const std::exception& e)
+	{
+		std::cerr << e.what() << '\n';
+	}
+	try
+	{
+		std::cout << std::endl;
+		std::cout <<  "Adding 42 to the span" << std::endl;
+		sp.addNumber(42);
+		sp.printSpan();	
+	}
+	catch(const std::exception& e)
+	{
+		std::cerr << e.what() << '\n';
+	}
+	_beg = sp.getVector().begin();
+	_end = sp.getVector().end();
+	try
+	{
+		std::cout << std::endl << "filling span" << std::endl;
 		sp.fillSpan(_beg, _end);
 	}
 	catch(const std::exception& e)
 	{
 		std::cerr << e.what() << '\n';
 	}
+	std::cout << std::endl;
 	sp.printSpan();	
 	return 0;
 }
