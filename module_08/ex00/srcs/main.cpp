@@ -6,13 +6,12 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/24 09:57:34 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/24 10:19:54 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/08/31 11:01:48 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "easyfind.hpp"
 #include <vector>
-#include <array>
 
 int main()
 {
@@ -29,7 +28,6 @@ int main()
 	{
 		std::cerr << e.what() << '\n';
 	}
-	
 	try
 	{
 		std::vector<int>::iterator it = Easyfind(vec, 10);
@@ -39,7 +37,6 @@ int main()
 	{
 		std::cerr << e.what() << '\n';
 	}
-	std::array<int> arr (1, 2, 3, 4);
 	
 	return (0);
 }
