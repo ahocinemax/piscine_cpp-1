@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/08 15:32:46 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/09 16:34:47 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/11/09 14:43:50 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ ShrubberyCreationForm & ShrubberyCreationForm::operator=(const ShrubberyCreation
 {
 	if(this != &rhs)
 	{
-		*this = rhs;
+		this->AForm::operator=(rhs);
 		_target = rhs._target;
 	}
 	std::cout << "ShrubberyCreationForm assignment constructor called" << std::endl;

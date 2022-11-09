@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/06 23:43:27 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/09 16:47:33 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/11/09 14:40:18 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,9 @@ int main()
 	
 	std::cout << "----PRESIDENTIALPARDONFORM TEST-----"<< std::endl;
 	PresidentialPardonForm formPrez("Nobody");
+	PresidentialPardonForm test;
+	test = formPrez;
+	std::cout << test << std::endl;
 	std::cout << formPrez;
 	boss.executeForm(formPrez);
 	boss.signForm(formPrez);

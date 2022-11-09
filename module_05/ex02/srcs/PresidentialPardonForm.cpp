@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/08 15:36:06 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/09 16:33:06 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/11/09 14:44:30 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ PresidentialPardonForm & PresidentialPardonForm::operator=(const PresidentialPar
 {
 	if(this != &rhs)
 	{
-		*this = rhs;
+		this->AForm::operator=(rhs);
 		_target = rhs._target;
 	}
 	std::cout << "PresidentialPardonForm assignment constructor called" << std::endl;

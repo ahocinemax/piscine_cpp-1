@@ -6,7 +6,7 @@
 /*   By: nburat-d <nburat-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/08 15:34:03 by nburat-d          #+#    #+#             */
-/*   Updated: 2022/08/17 16:49:02 by nburat-d         ###   ########.fr       */
+/*   Updated: 2022/11/09 14:43:44 by nburat-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ RobotomyRequestForm & RobotomyRequestForm::operator=(const RobotomyRequestForm &
 {
 	if(this != &rhs)
 	{
-		*this = rhs;
+		this->AForm::operator=(rhs);
 		_target = rhs._target;
 	}
 	std::cout << "Robotomy RequestForm assignment constructor called" << std::endl;
